@@ -262,6 +262,25 @@ const peoples = [
 		],
 		bio:'Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList...'
 	},
+	{
+		slug: "Mohammad Hossein Malek",
+		name: "محمد حسین ملک",
+		is_speaker: true,
+		is_skype: false,
+		subject: "PWA in React!",
+		avatar:"/static/images/people/malek.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/mhmalek/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "http://instagram.com/mhomalek",
+				icon: "fa-twitter",
+			},
+		],
+		bio:'he have more than six years of hands-on experience efficiently developing websites and Web-Applications using Modern Javascript frameworks like React and VueJs. he had the opportunity to be a part of many cool and innovative teams and companies. For now, we just want to talk about how we can develop a great PWA. starts with a simple introduction to PWA and how it is and what issues you might have on this journey and etc.'
+	},
 ];
 const juries = [
 	{
