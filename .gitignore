@@ -91,5 +91,14 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+*.iml
+/node_modules
+dist
+build
+.env
+.next
+.idea
+.DS_Store
+_MACOSX
 
 # End of https://www.gitignore.io/api/node

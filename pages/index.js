@@ -8,62 +8,333 @@ import "../styles/styles.scss";
 
 const peoples = [
 	{
-		slug: "manighasemi",
-		name: "مانی قاسمی",
+		slug: "Pedram Marandi",
+		name: "پدرام مرندی",
+		is_speaker: true,
+		is_skype: true,
+		subject: "What is Graphql and how to implement a scalable GraphQL project with React & Apollo?",
+		avatar:"/static/images/people/pedram.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/pedrammarandi/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://github.com/PedramMarandi",
+				icon: "fa-github",
+			},
+		],
+		bio:"full-stack Javascript web developer and a full-time Software Engineering student.developer at Ezerus.com, and we make enterprise Javascript applications with React, powered by lovely GraphQL, Apollo and Prisma."
+	},
+	{
+		slug: "Ana Lava",
+		name: "آنا لوا",
 		is_speaker: true,
 		is_skype: false,
-		just_panel: true,
-		panel: 1,
-		position: "موسس و سردبیر دیجیاتو"
+		subject: "An Introduction to Real-Time programming in Javascript",
+		avatar:"/static/images/people/ana.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/ana-lava-4466348a/",
+				icon: "fa-linkedin",
+			},
+		],
+		bio:"having +4 years of experience in backend development utilizing various technologies and concepts such as Nodejs, mongodb, Elasticsearch, Microservices Architecture, Docker and etc."
 	},
 	{
-		slug: "drfarahani",
-		name: "دکتر فراهانی",
+		slug: "Sajjad Beiraghdar",
+		name: "سجاد بیرقدار",
 		is_speaker: true,
 		is_skype: false,
-		just_panel: true,
-		panel: 1,
-		position: ""
+		subject: "React Native Architecture",
+		avatar:"/static/images/people/sajjad.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/smbeiragh/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/smbeiragh",
+				icon: "fa-twitter",
+			},
+			{
+				url: "https://github.com/smbeiragh",
+				icon: "fa-github",
+			},
+		],
+		bio:"How React Native works, What issues it has and how they will be addressed in the React Native new architecture."
 	},
 	{
-		slug: "sbehjati",
-		name: "سجاد بهجتی",
+		slug: "Jeremy Webster",
+		name: "جرمی وبستر",
 		is_speaker: true,
 		is_skype: false,
-		just_panel: true,
-		panel: 1,
-		position: ""
-	},
-
-	{
-		slug: "pouyamahmoodian",
-		name: "پویا محمودیان",
-		is_speaker: false,
-		is_skype: false,
-		just_panel: true,
-		panel: 2,
-		position: "مدیرعامل عکس‌پرینت"
+		subject: "How Not to Be Innovative",
+		avatar:"/static/images/people/jeremy.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/jeremywebstercc/",
+				icon: "fa-linkedin",
+			},
+		],
+		bio:"The talk will be about where Innovation in technology comes from, based on my own research and experience, and how your choice of technologies in a project can stop innovation"
 	},
 	{
-		slug: "mjshakouri",
-		name: "محمدجواد شکوری",
-		is_speaker: false,
+		slug: "Amir abbas abdolali",
+		name: "جرمی وبستر",
+		is_speaker: true,
 		is_skype: false,
-		just_panel: true,
-		panel: 2,
-		position: "مدیرعامل کلوب"
+		subject: "Everything You Need To Know About SVG",
+		avatar:"/static/images/people/amirabbas.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/abdolali/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/amir_abbas",
+				icon: "fa-twitter",
+			},
+		],
+		bio:"why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it."
 	},
 	{
-		slug: "nimanourmohammadi",
-		name: "نیما نور محمدی",
-		is_speaker: false,
+		slug: "Mojtaba Esparipour",
+		name: "مجتبی اسبری پور",
+		is_speaker: true,
 		is_skype: false,
-		just_panel: true,
-		panel: 2,
-		position: ""
-	}
+		subject: "React 16 Overview",
+		avatar:"/static/images/people/mojtaba.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/mojtabast/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "http://www.twitter.com/mojtabast_fa",
+				icon: "fa-twitter",
+			},
+		],
+		bio:"An overview on how React works and what features are added to it in version 16.x"
+	},
+	{
+		slug: "Milad Heydari",
+		name: "میلاد حیدری",
+		is_speaker: true,
+		is_skype: false,
+		subject: "hiring issues in Front-End Community",
+		avatar:"/static/images/people/milad.jpg",
+		socials: [
+			{
+				url: "http://www.linkedin.com/in/miladheydari",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "http://www.instagram.com/iammilaad",
+				icon: "fa-twitter",
+			},
+			{
+				url: "https://github.com/miladbruce",
+				icon: "fa-github",
+			},
+		],
+		bio:"Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."
+	},
+	{
+		slug: "Ehsan Mohammadi",
+		name: "احسان محمدی",
+		is_speaker: true,
+		is_skype: false,
+		subject: "Why are we using React.js in our project?",
+		avatar:"/static/images/people/ehsun.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/ehsanmohammadi/",
+				icon: "fa-linkedin",
+			},
+		],
+		bio:"Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript."
+	},
+	{
+		slug: "Hamed Esmaili",
+		name: "حامد اسماعیلی",
+		is_speaker: true,
+		is_skype: false,
+		subject: "How Diffing Algorithm Works In React",
+		avatar:"/static/images/people/hamed.jpg",
+		socials: [
+			{
+				url: "http://linkedin.com/in/theham3d",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/theham3d",
+				icon: "fa-twitter",
+			},
+			{
+				url: "https://github.com/theham3d",
+				icon: "fa-github",
+			},
+		],
+		bio:"Manipulating the DOM‌ is an intensive operation in the browser world, react uses VDOM concept to do that with its own diffing algorithm to improve performance which we aim to go through it to understand what is under the hood."
+	},
+	{
+		slug: "Samaneh Mohammadi",
+		name: "سمانه محمدی",
+		is_speaker: true,
+		is_skype: false,
+		subject: "Styled-Component Architecture",
+		avatar:"/static/images/people/samaneh.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/samaneh-1994-13-mohammadi/",
+				icon: "fa-linkedin",
+			},
+		],
+		bio:"how to make Dynamic interactive user interface based on components and how to use it for building complex interfaces."
+	},
+	{
+		slug: "Mohamad Jahani",
+		name: "محمد جهانی",
+		is_speaker: true,
+		is_skype: false,
+		subject: "useHooks!",
+		avatar:"/static/images/people/mamal.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/mamal72/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://github.com/mamal72",
+				icon: "fa-github",
+			},
+			{
+				url: "https://twitter.com/mamal72",
+				icon: "fa-twitter",
+			},
+		],
+		bio:'Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like "What are Hooks?", "Why we should use them?", and "How to use them?"'
+	},
+	{
+		slug: "Negar Jamalifard",
+		name: "نگار جمالی فرد",
+		is_speaker: true,
+		is_skype: false,
+		subject: "How to deal with CORS error in Webpack?",
+		avatar:"/static/images/people/negar.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/negarjamalifard",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://github.com/negarjf",
+				icon: "fa-github",
+			},
+			{
+				url: "https://twitter.com/NegarJamalifard",
+				icon: "fa-twitter",
+			},
+			{
+				url: "https://medium.com/@negarjf",
+				icon: "fa-medium",
+			},
+		],
+		bio:'Does CORS error haunts you in every project? Are you tired of asking backend team to handle it? This talk is going to give you all the power to handle this error in development.'
+	},
+	{
+		slug: "Ahmad Karimpour",
+		name: "احمد کریم پور",
+		is_speaker: true,
+		is_skype: false,
+		subject: "A Cup of React-Native",
+		avatar:"/static/images/people/ahmad.jpg",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/ahmadina/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/iahmadina",
+				icon: "fa-twitter",
+			},
+		],
+		bio:'Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList...'
+	},
 ];
-
+const juries = [
+	{
+		avatar: "/static/images/people/mahdieh.jpg",
+		slug: "Mahdieh Noroozian",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/mahdieh-noroozian-90016b45/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/_mahdieh_",
+				icon: "fa-twitter",
+			},
+		],
+	},
+	{
+		avatar: "/static/images/people/pourya.jpg",
+		slug: "Pourya Sharifi",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/alaki",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/alaki",
+				icon: "fa-twitter",
+			},
+		],
+	},
+	{
+		avatar: "/static/images/people/farzad.jpg",
+		slug: "Farzad YousefZadeh",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/farzadyz/",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/Farzad_YZ",
+				icon: "fa-twitter",
+			},
+		],
+	},
+	{
+		avatar: "/static/images/people/reza.jpg",
+		slug: "Reza Shadman",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/bigsinoos",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/reshadman",
+				icon: "fa-twitter",
+			},
+		],
+	},
+	{
+		avatar: "/static/images/people/mohammad.jpg",
+		slug: "Mohamad Mohebifar",
+		socials: [
+			{
+				url: "https://www.linkedin.com/in/mohebifar",
+				icon: "fa-linkedin",
+			},
+			{
+				url: "https://twitter.com/mohebifar",
+				icon: "fa-twitter",
+			},
+		],
+	},
+];
 const Home = () => (
 	<main>
 		<style jsx>{`
@@ -204,7 +475,7 @@ const Home = () => (
 				<h1 className="heroConf">
 					<span className="tx-gr-purple">ReactJS</span> &{" "}
 					<span className="tx-gr-orange">JS conference</span> —{" "}
-					<span className="tx-gr-blue">August 23, 2019</span>.{" "}
+					<span className="tx-gr-blue">August 29, 2019</span>.{" "}
 					<span className="tx-gr-pink">Tehran, Iran</span>.
 				</h1>
 				<p className="description">
@@ -257,17 +528,7 @@ const Home = () => (
 						<People
 							className="hero"
 							name={"Sara Hashemi"}
-							subject={null}
 							avatar="https://reactconf.ir/static/image/presenter.jpg"
-							socials={[
-								{
-									twitter: "@sia_mac",
-									linkedin: "siamakmokhtari",
-									github: "siamak",
-									codepen: "siamak",
-									dribbble: "siamak"
-								}
-							]}
 							bio="Founder and CEO of Wink App. Experienced Product Manager with a demonstrated history of working in the marketing and advertising industry. Skilled in Negotiation, Business Planning, Retail, and Customer Relationship Management (CRM). Strong product management professional with a Master of Business Administration (M.B.A.) focused in MEBA from IMI (Industrial Management Institute)."
 						/>
 					</Grid>
@@ -285,19 +546,12 @@ const Home = () => (
 						<Grid width={300} gap={"var(--gap)"}>
 							{peoples.map((p, i) => (
 								<People
+									key={i}
 									name={p.slug}
-									subject="What is Graphql and how to implement a scalable GraphQL project with React & Apollo?"
-									avatar={`https://i.pravatar.cc/30${i}`}
-									socials={[
-										{
-											twitter: "@sia_mac",
-											linkedin: "siamakmokhtari",
-											github: "siamak",
-											codepen: "siamak",
-											dribbble: "siamak"
-										}
-									]}
-									bio="full-stack Javascript web developer and a full-time Software Engineering student.developer at Ezerus.com, and we make enterprise Javascript applications with React, powered by lovely GraphQL, Apollo and Prisma."
+									subject={p.subject}
+									avatar={p.avatar}
+									socials={p.socials}
+									bio={p.bio}
 								/>
 							))}
 						</Grid>
@@ -307,152 +561,152 @@ const Home = () => (
 		</section>
 
 		<section className="section">
-			<div className="container-fluid">
-				<section className="Grid">
-					<aside className="section__outline">
-						<h3 className="heading">Schedules</h3>
-					</aside>
-					<section className="section__main">
-						<section className="table">
-							<header className="table-row table-head_featured">
-								<div className="wrap-row">23 Auguest 2019</div>
-							</header>
-							<section id="schedule-1" className="table-row">
-								<div className="wrap-row">
-									<div className="col">
-										<h4 className="subject">
-											What is Graphql and how to implement
-											a scalable GraphQL project with
-											React & Apollo?
-										</h4>
-										<p className="summary">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit.
-											Cupiditate quidem pariatur sed
-											similique expedita ab accusamus
-											ratione consequatur, nihil
-											perferendis maxime voluptatibus ut
-											unde dicta nobis sint sunt tempore
-											neque?
-										</p>
-										<div className="speaker">
-											<img
-												src="https://reactconf.ir/static/image/presenter.jpg"
-												alt="Hossein"
-											/>{" "}
-											Milad Heydari
-										</div>
-									</div>
-									<div className="side">
-										<time className="gray">
-											07:00 — 08:00
-										</time>
-									</div>
-								</div>
-							</section>
-							<section id="schedule-1" className="table-row">
-								<div className="wrap-row">
-									<div className="col">
-										<h4 className="subject">
-											What is Graphql and how to implement
-											a scalable GraphQL project with
-											React & Apollo?
-										</h4>
-										<p className="summary">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit.
-											Cupiditate quidem pariatur sed
-											similique expedita ab accusamus
-											ratione consequatur, nihil
-											perferendis maxime voluptatibus ut
-											unde dicta nobis sint sunt tempore
-											neque?
-										</p>
-										<div className="speaker">
-											<img
-												src="https://reactconf.ir/static/image/presenter.jpg"
-												alt="Hossein"
-											/>{" "}
-											Milad Heydari
-										</div>
-									</div>
-									<div className="side">
-										<time className="gray">
-											07:00 — 08:00
-										</time>
-									</div>
-								</div>
-							</section>
-							<section id="schedule-1" className="table-row">
-								<div className="wrap-row">
-									<div className="col">
-										<h4 className="subject">
-											What is Graphql and how to implement
-											a scalable GraphQL project with
-											React & Apollo?
-										</h4>
-										<p className="summary">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit.
-											Cupiditate quidem pariatur sed
-											similique expedita ab accusamus
-											ratione consequatur, nihil
-											perferendis maxime voluptatibus ut
-											unde dicta nobis sint sunt tempore
-											neque?
-										</p>
-										<div className="speaker">
-											<img
-												src="https://reactconf.ir/static/image/presenter.jpg"
-												alt="Hossein"
-											/>{" "}
-											Milad Heydari
-										</div>
-									</div>
-									<div className="side">
-										<time className="gray">
-											07:00 — 08:00
-										</time>
-									</div>
-								</div>
-							</section>
-							<section id="schedule-1" className="table-row">
-								<div className="wrap-row">
-									<div className="col">
-										<h4 className="subject">
-											What is Graphql and how to implement
-											a scalable GraphQL project with
-											React & Apollo?
-										</h4>
-										<p className="summary">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit.
-											Cupiditate quidem pariatur sed
-											similique expedita ab accusamus
-											ratione consequatur, nihil
-											perferendis maxime voluptatibus ut
-											unde dicta nobis sint sunt tempore
-											neque?
-										</p>
-										<div className="speaker">
-											<img
-												src="https://reactconf.ir/static/image/presenter.jpg"
-												alt="Hossein"
-											/>{" "}
-											Milad Heydari
-										</div>
-									</div>
-									<div className="side">
-										<time className="gray">
-											07:00 — 08:00
-										</time>
-									</div>
-								</div>
-							</section>
-						</section>
-					</section>
-				</section>
-			</div>
+			{/*<div className="container-fluid">*/}
+			{/*	<section className="Grid">*/}
+			{/*		<aside className="section__outline">*/}
+			{/*			<h3 className="heading">Schedules</h3>*/}
+			{/*		</aside>*/}
+			{/*		<section className="section__main">*/}
+			{/*			<section className="table">*/}
+			{/*				<header className="table-row table-head_featured">*/}
+			{/*					<div className="wrap-row">23 Auguest 2019</div>*/}
+			{/*				</header>*/}
+			{/*				<section id="schedule-1" className="table-row">*/}
+			{/*					<div className="wrap-row">*/}
+			{/*						<div className="col">*/}
+			{/*							<h4 className="subject">*/}
+			{/*								What is Graphql and how to implement*/}
+			{/*								a scalable GraphQL project with*/}
+			{/*								React & Apollo?*/}
+			{/*							</h4>*/}
+			{/*							<p className="summary">*/}
+			{/*								Lorem ipsum dolor sit amet*/}
+			{/*								consectetur adipisicing elit.*/}
+			{/*								Cupiditate quidem pariatur sed*/}
+			{/*								similique expedita ab accusamus*/}
+			{/*								ratione consequatur, nihil*/}
+			{/*								perferendis maxime voluptatibus ut*/}
+			{/*								unde dicta nobis sint sunt tempore*/}
+			{/*								neque?*/}
+			{/*							</p>*/}
+			{/*							<div className="speaker">*/}
+			{/*								<img*/}
+			{/*									src="https://reactconf.ir/static/image/presenter.jpg"*/}
+			{/*									alt="Hossein"*/}
+			{/*								/>{" "}*/}
+			{/*								Milad Heydari*/}
+			{/*							</div>*/}
+			{/*						</div>*/}
+			{/*						<div className="side">*/}
+			{/*							<time className="gray">*/}
+			{/*								07:00 — 08:00*/}
+			{/*							</time>*/}
+			{/*						</div>*/}
+			{/*					</div>*/}
+			{/*				</section>*/}
+			{/*				<section id="schedule-1" className="table-row">*/}
+			{/*					<div className="wrap-row">*/}
+			{/*						<div className="col">*/}
+			{/*							<h4 className="subject">*/}
+			{/*								What is Graphql and how to implement*/}
+			{/*								a scalable GraphQL project with*/}
+			{/*								React & Apollo?*/}
+			{/*							</h4>*/}
+			{/*							<p className="summary">*/}
+			{/*								Lorem ipsum dolor sit amet*/}
+			{/*								consectetur adipisicing elit.*/}
+			{/*								Cupiditate quidem pariatur sed*/}
+			{/*								similique expedita ab accusamus*/}
+			{/*								ratione consequatur, nihil*/}
+			{/*								perferendis maxime voluptatibus ut*/}
+			{/*								unde dicta nobis sint sunt tempore*/}
+			{/*								neque?*/}
+			{/*							</p>*/}
+			{/*							<div className="speaker">*/}
+			{/*								<img*/}
+			{/*									src="https://reactconf.ir/static/image/presenter.jpg"*/}
+			{/*									alt="Hossein"*/}
+			{/*								/>{" "}*/}
+			{/*								Milad Heydari*/}
+			{/*							</div>*/}
+			{/*						</div>*/}
+			{/*						<div className="side">*/}
+			{/*							<time className="gray">*/}
+			{/*								07:00 — 08:00*/}
+			{/*							</time>*/}
+			{/*						</div>*/}
+			{/*					</div>*/}
+			{/*				</section>*/}
+			{/*				<section id="schedule-1" className="table-row">*/}
+			{/*					<div className="wrap-row">*/}
+			{/*						<div className="col">*/}
+			{/*							<h4 className="subject">*/}
+			{/*								What is Graphql and how to implement*/}
+			{/*								a scalable GraphQL project with*/}
+			{/*								React & Apollo?*/}
+			{/*							</h4>*/}
+			{/*							<p className="summary">*/}
+			{/*								Lorem ipsum dolor sit amet*/}
+			{/*								consectetur adipisicing elit.*/}
+			{/*								Cupiditate quidem pariatur sed*/}
+			{/*								similique expedita ab accusamus*/}
+			{/*								ratione consequatur, nihil*/}
+			{/*								perferendis maxime voluptatibus ut*/}
+			{/*								unde dicta nobis sint sunt tempore*/}
+			{/*								neque?*/}
+			{/*							</p>*/}
+			{/*							<div className="speaker">*/}
+			{/*								<img*/}
+			{/*									src="https://reactconf.ir/static/image/presenter.jpg"*/}
+			{/*									alt="Hossein"*/}
+			{/*								/>{" "}*/}
+			{/*								Milad Heydari*/}
+			{/*							</div>*/}
+			{/*						</div>*/}
+			{/*						<div className="side">*/}
+			{/*							<time className="gray">*/}
+			{/*								07:00 — 08:00*/}
+			{/*							</time>*/}
+			{/*						</div>*/}
+			{/*					</div>*/}
+			{/*				</section>*/}
+			{/*				<section id="schedule-1" className="table-row">*/}
+			{/*					<div className="wrap-row">*/}
+			{/*						<div className="col">*/}
+			{/*							<h4 className="subject">*/}
+			{/*								What is Graphql and how to implement*/}
+			{/*								a scalable GraphQL project with*/}
+			{/*								React & Apollo?*/}
+			{/*							</h4>*/}
+			{/*							<p className="summary">*/}
+			{/*								Lorem ipsum dolor sit amet*/}
+			{/*								consectetur adipisicing elit.*/}
+			{/*								Cupiditate quidem pariatur sed*/}
+			{/*								similique expedita ab accusamus*/}
+			{/*								ratione consequatur, nihil*/}
+			{/*								perferendis maxime voluptatibus ut*/}
+			{/*								unde dicta nobis sint sunt tempore*/}
+			{/*								neque?*/}
+			{/*							</p>*/}
+			{/*							<div className="speaker">*/}
+			{/*								<img*/}
+			{/*									src="https://reactconf.ir/static/image/presenter.jpg"*/}
+			{/*									alt="Hossein"*/}
+			{/*								/>{" "}*/}
+			{/*								Milad Heydari*/}
+			{/*							</div>*/}
+			{/*						</div>*/}
+			{/*						<div className="side">*/}
+			{/*							<time className="gray">*/}
+			{/*								07:00 — 08:00*/}
+			{/*							</time>*/}
+			{/*						</div>*/}
+			{/*					</div>*/}
+			{/*				</section>*/}
+			{/*			</section>*/}
+			{/*		</section>*/}
+			{/*	</section>*/}
+			{/*</div>*/}
 
 			<section className="section">
 				<div className="container">
@@ -460,11 +714,11 @@ const Home = () => (
 						<h2 className="tx-gr-pink">Location</h2>
 						<div className="location">
 							<div className="location__query">
-								<h3>Holy Shit Museum Hall Conf.</h3>
+								<h3>Holy Defense Museum Hall</h3>
 								<p>
-									Keas 69 Str. 15234, Chalandri Tehran, Iran.
+									Sarv St. Haqani Highway, Vanak.Tehran, Iran
 								</p>
-								<a href="#" className="btn">
+								<a href="https://www.google.com/maps/place/Holy+Defense+Museum/@35.7533039,51.4255214,15z/data=!4m2!3m1!1s0x0:0x936f271446787a93?sa=X&ved=2ahUKEwicvKjh-anjAhWNW80KHfgkC8UQ_BIwDnoECA8QCA" className="btn" target="_blank">
 									Show on Google Map
 								</a>
 							</div>
@@ -481,21 +735,12 @@ const Home = () => (
 						</aside>
 						<section className="section__main">
 							<Grid width={300} gap={"var(--gap)"}>
-								{peoples.map((p, i) => (
+								{juries.map((p, i) => (
 									<People
+										key={i}
 										name={p.slug}
-										subject="What is Graphql and how to implement a scalable GraphQL project with React & Apollo?"
-										avatar={`https://i.pravatar.cc/30${i}`}
-										socials={[
-											{
-												twitter: "@sia_mac",
-												linkedin: "siamakmokhtari",
-												github: "siamak",
-												codepen: "siamak",
-												dribbble: "siamak"
-											}
-										]}
-										bio="full-stack Javascript web developer and a full-time Software Engineering student.developer at Ezerus.com, and we make enterprise Javascript applications with React, powered by lovely GraphQL, Apollo and Prisma."
+										avatar={p.avatar}
+										socials={p.socials}
 									/>
 								))}
 							</Grid>
