@@ -1,0 +1,19 @@
+{
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-css-grid": "^2.0.0-0",
+    "react-dom": "^16.8.6",
+    "react-lazyload": "^2.6.2"
+  }
+}

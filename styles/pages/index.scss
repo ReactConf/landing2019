@@ -1,0 +1,109 @@
+.section {
+	margin: calc(var(--baseline) * 3) 0;
+	&__outline {
+		direction: rtl;
+		.heading {
+			position: -webkit-sticky;
+			position: sticky;
+			top: var(--baseline);
+
+			width: 20rem;
+			font-weight: 888;
+			margin-top: var(--baseline);
+			margin-bottom: 0;
+			max-width: 100%;
+			line-height: calc(var(--baseline) * 1.5);
+		}
+	}
+}
+
+.people {
+	margin: 0 0 var(--baseline);
+	&.hero {
+		display: grid;
+		grid-template-columns: 1fr 1.5fr;
+		grid-column-gap: calc(var(--gap) * 2);
+		justify-items: stretch;
+		align-items: center;
+		.people__avatar {
+			min-height: 400px;
+			img {
+				height: 400px;
+			}
+		}
+	}
+	&__avatar {
+		position: relative;
+		background: #e50914;
+		overflow: hidden;
+		border-radius: var(--radius);
+		margin-bottom: var(--baseline);
+		min-height: 300px;
+		img {
+			display: block;
+			margin: 0;
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+
+			-webkit-filter: grayscale(100%) contrast(1.2);
+			filter: grayscale(100%) contrast(1.2);
+			mix-blend-mode: darken;
+		}
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			// -webkit-filter: contrast(1.3);
+			// filter: contrast(1.3);
+			// mix-blend-mode: hue;
+			background: #282581;
+			mix-blend-mode: lighten !important;
+			-webkit-filter: contrast(1.1) !important;
+			filter: contrast(1.1) !important;
+		}
+	}
+	&__name {
+		margin-bottom: 0;
+		font-weight: 900;
+		word-break: break-word;
+	}
+	&__bio {
+		font-weight: 350;
+		color: var(--light-gray-color);
+		font-size: 1rem;
+		word-break: break-word;
+
+	}
+}
+
+.Grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: calc(var(--gap) * 3);
+	grid-template-areas: ". .";
+}
+
+.location {
+	position: relative;
+	background-image: url('/static/images/hall.jpeg');
+	background-size: cover;
+	background-color: var(--black-color);
+	min-height: 40rem;
+	height: 80vh;
+	&__query {
+		position: absolute;
+		bottom: 0;
+		width: 33.3%;
+		padding: var(--gap);
+		background: var(--background-color);
+		h3 {
+			font-weight: 800;
+			line-height: 1.2;
+		}
+	}
+}

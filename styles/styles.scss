@@ -1,0 +1,24 @@
+@import "./modules/colors.scss";
+@import "./modules/grid.scss";
+@import "./modules/typography.scss";
+// @import "../node_modules/normalize.css/normalize.css";
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: var(--background-color);
+	color: var(--foreground-color);
+}
+
+* {
+	outline: 0;
+}
+
+::selection {
+	background-color: var(--secondary-color);
+	color: #fff;
+}
+
+@import "./pages/index.scss";
+@import "./modules/timetable.scss";
