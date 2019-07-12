@@ -200,17 +200,34 @@
 		color: #5232ea;
 		letter-spacing: -0.05em;
 		font-size: 3rem;
+		margin: 0 0 var(--baseline);
 		small {
 			opacity: 0.9;
 			text-transform: uppercase;
 			font-size: 0.5em;
+			position: relative;
+			bottom: 4px;
+			left: 5px;
 			font-weight: 700;
 			letter-spacing: -0.025em;
 		}
 	}
 	h2.offer {
-		text-decoration: line-through;
-		font-size: 2rem;
+		position: relative;
+		font-size: 1.5em;
+		margin: 0 auto;
+		display: table;
+		color: var(--gray-color);
+		&:before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			height: 1px;
+			width: 100%;
+			background-color: currentColor;
+			left: 0;
+			right: 0;
+		}
 	}
 	.btn {
 		padding: 0.75rem 5rem !important;
