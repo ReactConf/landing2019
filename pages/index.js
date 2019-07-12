@@ -481,7 +481,8 @@ export default class Main extends Component {
 													Siamak Mokhtari
 												</b>
 												<span className="sponsors--item-type black-light">
-													D
+													Designer of
+													ReactConfIran2019
 												</span>
 											</figcaption>
 										</a>
