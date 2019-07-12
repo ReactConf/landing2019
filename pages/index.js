@@ -251,7 +251,7 @@ export default class Main extends Component {
 									<People
 										className="hero"
 										name={"Sara Hashemi"}
-										avatar="/static/image/presenter.jpg"
+										avatar="/static/images/people/sara.jpg"
 										bio="Founder and CEO of Wink App. Experienced Product Manager with a demonstrated history of working in the marketing and advertising industry. Skilled in Negotiation, Business Planning, Retail, and Customer Relationship Management (CRM). Strong product management professional with a Master of Business Administration (M.B.A.) focused in MEBA from IMI (Industrial Management Institute)."
 									/>
 								</Grid>
@@ -315,63 +315,63 @@ export default class Main extends Component {
 						</section>
 					</section>
 
-					<section className="section">
-						<div className="container-fluid">
-							<section className="Grid">
-								<aside className="section__outline">
-									<h3 className="heading">Schedules</h3>
-								</aside>
-								<section className="section__main">
-									<section className="table">
-										<header className="table-row table-head_featured">
-											<div className="wrap-row">
-												23 Auguest 2019
-											</div>
-										</header>
-										<Schedule
-											id={1}
-											people={"Ana Lava"}
-											type={"Presentation"}
-											subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}
-											summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}
-											time={["07:00", "8:00"]}
-										/>
-										<Schedule
-											id={2}
-											people={"Ana Lava"}
-											type={"Presentation"}
-											subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}
-											summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}
-											time={["07:00", "8:00"]}
-										/>
-										<Schedule
-											id={3}
-											people={"Ana Lava"}
-											type={"Presentation"}
-											subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}
-											summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}
-											time={["07:00", "8:00"]}
-										/>
-										<Schedule
-											id={4}
-											type={"Break"}
-											subject={`Breakfast`}
-											summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}
-											time={["07:00", "8:00"]}
-										/>
-										<Schedule
-											id={5}
-											people={"Ana Lava"}
-											type={"Presentation"}
-											subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}
-											summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}
-											time={["07:00", "8:00"]}
-										/>
-									</section>
-								</section>
-							</section>
-						</div>
-					</section>
+					{/*<section className="section">*/}
+					{/*	<div className="container-fluid">*/}
+					{/*		<section className="Grid">*/}
+					{/*			<aside className="section__outline">*/}
+					{/*				<h3 className="heading">Schedules</h3>*/}
+					{/*			</aside>*/}
+					{/*			<section className="section__main">*/}
+					{/*				<section className="table">*/}
+					{/*					<header className="table-row table-head_featured">*/}
+					{/*						<div className="wrap-row">*/}
+					{/*							23 Auguest 2019*/}
+					{/*						</div>*/}
+					{/*					</header>*/}
+					{/*					<Schedule*/}
+					{/*						id={1}*/}
+					{/*						people={"Ana Lava"}*/}
+					{/*						type={"Presentation"}*/}
+					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
+					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
+					{/*						time={["07:00", "8:00"]}*/}
+					{/*					/>*/}
+					{/*					<Schedule*/}
+					{/*						id={2}*/}
+					{/*						people={"Ana Lava"}*/}
+					{/*						type={"Presentation"}*/}
+					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
+					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
+					{/*						time={["07:00", "8:00"]}*/}
+					{/*					/>*/}
+					{/*					<Schedule*/}
+					{/*						id={3}*/}
+					{/*						people={"Ana Lava"}*/}
+					{/*						type={"Presentation"}*/}
+					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
+					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
+					{/*						time={["07:00", "8:00"]}*/}
+					{/*					/>*/}
+					{/*					<Schedule*/}
+					{/*						id={4}*/}
+					{/*						type={"Break"}*/}
+					{/*						subject={`Breakfast`}*/}
+					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
+					{/*						time={["07:00", "8:00"]}*/}
+					{/*					/>*/}
+					{/*					<Schedule*/}
+					{/*						id={5}*/}
+					{/*						people={"Ana Lava"}*/}
+					{/*						type={"Presentation"}*/}
+					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
+					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
+					{/*						time={["07:00", "8:00"]}*/}
+					{/*					/>*/}
+					{/*				</section>*/}
+					{/*			</section>*/}
+					{/*		</section>*/}
+					{/*	</div>*/}
+					{/*</section>*/}
 
 					<section className="section">
 						<div className="container">
