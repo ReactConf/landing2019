@@ -199,6 +199,7 @@
 		font-weight: 900;
 		color: #5232ea;
 		letter-spacing: -0.05em;
+		font-size: 3rem;
 		small {
 			opacity: 0.9;
 			text-transform: uppercase;
@@ -206,6 +207,10 @@
 			font-weight: 700;
 			letter-spacing: -0.025em;
 		}
+	}
+	h2.offer {
+		text-decoration: line-through;
+		font-size: 2rem;
 	}
 	.btn {
 		padding: 0.75rem 5rem !important;
@@ -245,6 +250,17 @@
 		padding-top: 4vh;
 		border-top: 1px solid rgba(#eee, 0.1);
 	}
+	.footer-logo {
+		display: inline-block;
+		&.space {
+			margin-left: 20px;
+		}
+		img {
+			max-width: 150px;
+			height: auto;
+		}
+	}
+
 	._logo {
 		margin-bottom: 1vh;
 	}
