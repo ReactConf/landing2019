@@ -1,206 +1,206 @@
 {
 	"peoples": [{
-			"slug": "Pedram Marandi",
-			"name": "پدرام مرندی",
-			"is_speaker": true,
-			"is_skype": true,
-			"subject": "What is Graphql and how to implement a scalable GraphQL project with React & Apollo?",
-			"avatar": "/static/images/people/pedram.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/pedrammarandi/",
-				"icon": "linkedin"
-			}, {
-				"url": "https://github.com/PedramMarandi",
-				"icon": "github"
-			}],
-			"bio": "full-stack Javascript web developer and a full-time Software Engineering student.developer at Ezerus.com, and we make enterprise Javascript applications with React, powered by lovely GraphQL, Apollo and Prisma."
+		"slug": "Pedram Marandi",
+		"name": "پدرام مرندی",
+		"is_speaker": true,
+		"is_skype": true,
+		"subject": "What is Graphql and how to implement a scalable GraphQL project with React & Apollo?",
+		"avatar": "/static/images/people/pedram.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/pedrammarandi/",
+			"icon": "linkedin"
 		}, {
-			"slug": "Ana Lava",
-			"name": "آنا لوا",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "An Introduction to Real-Time programming in Javascript",
-			"avatar": "/static/images/people/ana.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/ana-lava-4466348a/",
-				"icon": "linkedin"
-			}],
-			"bio": "having +4 years of experience in backend development utilizing various technologies and concepts such as Nodejs, mongodb, Elasticsearch, Microservices Architecture, Docker and etc."
+			"url": "https://github.com/PedramMarandi",
+			"icon": "github"
+		}],
+		"bio": "full-stack Javascript web developer and a full-time Software Engineering student.developer at Ezerus.com, and we make enterprise Javascript applications with React, powered by lovely GraphQL, Apollo and Prisma."
+	}, {
+		"slug": "Ana Lava",
+		"name": "آنا لوا",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "An Introduction to Real-Time programming in Javascript",
+		"avatar": "/static/images/people/ana.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/ana-lava-4466348a/",
+			"icon": "linkedin"
+		}],
+		"bio": "having +4 years of experience in backend development utilizing various technologies and concepts such as Nodejs, mongodb, Elasticsearch, Microservices Architecture, Docker and etc."
+	}, {
+		"slug": "Sajjad Beiraghdar",
+		"name": "سجاد بیرقدار",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "React Native Architecture",
+		"avatar": "/static/images/people/sajjad.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/smbeiragh/",
+			"icon": "linkedin"
 		}, {
-			"slug": "Sajjad Beiraghdar",
-			"name": "سجاد بیرقدار",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "React Native Architecture",
-			"avatar": "/static/images/people/sajjad.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/smbeiragh/",
-				"icon": "linkedin"
-			}, {
-				"url": "https://twitter.com/smbeiragh",
-				"icon": "twitter"
-			}, {
-				"url": "https://github.com/smbeiragh",
-				"icon": "github"
-			}],
-			"bio": "How React Native works, What issues it has and how they will be addressed in the React Native new architecture."
+			"url": "https://twitter.com/smbeiragh",
+			"icon": "twitter"
 		}, {
-			"slug": "Jeremy Webster",
-			"name": "جرمی وبستر",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "How Not to Be Innovative",
-			"avatar": "/static/images/people/jeremy.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/jeremywebstercc/",
-				"icon": "linkedin"
-			}],
-			"bio": "The talk will be about where Innovation in technology comes from, based on my own research and experience, and how your choice of technologies in a project can stop innovation"
+			"url": "https://github.com/smbeiragh",
+			"icon": "github"
+		}],
+		"bio": "How React Native works, What issues it has and how they will be addressed in the React Native new architecture."
+	}, {
+		"slug": "Jeremy Webster",
+		"name": "جرمی وبستر",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "How Not to Be Innovative",
+		"avatar": "/static/images/people/jeremy.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/jeremywebstercc/",
+			"icon": "linkedin"
+		}],
+		"bio": "The talk will be about where Innovation in technology comes from, based on my own research and experience, and how your choice of technologies in a project can stop innovation"
+	}, {
+		"slug": "Amir abbas abdolali",
+		"name": "جرمی وبستر",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "Everything You Need To Know About SVG",
+		"avatar": "/static/images/people/amirabbas.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/abdolali/",
+			"icon": "linkedin"
 		}, {
-			"slug": "Amir abbas abdolali",
-			"name": "جرمی وبستر",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "Everything You Need To Know About SVG",
-			"avatar": "/static/images/people/amirabbas.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/abdolali/",
-				"icon": "linkedin"
-			}, {
-				"url": "https://twitter.com/amir_abbas",
-				"icon": "twitter"
-			}],
-			"bio": "why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it."
+			"url": "https://twitter.com/amir_abbas",
+			"icon": "twitter"
+		}],
+		"bio": "why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it."
+	}, {
+		"slug": "Mojtaba Esparipour",
+		"name": "مجتبی اسبری پور",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "React 16 Overview",
+		"avatar": "/static/images/people/mojtaba.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/mojtabast/",
+			"icon": "linkedin"
 		}, {
-			"slug": "Mojtaba Esparipour",
-			"name": "مجتبی اسبری پور",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "React 16 Overview",
-			"avatar": "/static/images/people/mojtaba.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/mojtabast/",
-				"icon": "linkedin"
-			}, {
-				"url": "http://www.twitter.com/mojtabast_fa",
-				"icon": "twitter"
-			}],
-			"bio": "An overview on how React works and what features are added to it in version 16.x"
+			"url": "http://www.twitter.com/mojtabast_fa",
+			"icon": "twitter"
+		}],
+		"bio": "An overview on how React works and what features are added to it in version 16.x"
+	}, {
+		"slug": "Milad Heydari",
+		"name": "میلاد حیدری",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "hiring issues in Front-End Community",
+		"avatar": "/static/images/people/milad.jpg",
+		"socials": [{
+			"url": "http://www.linkedin.com/in/miladheydari",
+			"icon": "linkedin"
 		}, {
-			"slug": "Milad Heydari",
-			"name": "میلاد حیدری",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "hiring issues in Front-End Community",
-			"avatar": "/static/images/people/milad.jpg",
-			"socials": [{
-				"url": "http://www.linkedin.com/in/miladheydari",
-				"icon": "linkedin"
-			}, {
-				"url": "http://www.instagram.com/iammilaad",
-				"icon": "twitter"
-			}, {
-				"url": "https://github.com/miladbruce",
-				"icon": "github"
-			}],
-			"bio": "Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."
+			"url": "http://www.instagram.com/iammilaad",
+			"icon": "twitter"
 		}, {
-			"slug": "Ehsan Mohammadi",
-			"name": "احسان محمدی",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "Why are we using React.js in our project?",
-			"avatar": "/static/images/people/ehsun.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/ehsanmohammadi/",
-				"icon": "linkedin"
-			}],
-			"bio": "Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript."
+			"url": "https://github.com/miladbruce",
+			"icon": "github"
+		}],
+		"bio": "Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."
+	}, {
+		"slug": "Ehsan Mohammadi",
+		"name": "احسان محمدی",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "Why are we using React.js in our project?",
+		"avatar": "/static/images/people/ehsun.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/ehsanmohammadi/",
+			"icon": "linkedin"
+		}],
+		"bio": "Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript."
+	}, {
+		"slug": "Hamed Esmaili",
+		"name": "حامد اسماعیلی",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "How Diffing Algorithm Works In React",
+		"avatar": "/static/images/people/hamed.jpg",
+		"socials": [{
+			"url": "http://linkedin.com/in/theham3d",
+			"icon": "linkedin"
 		}, {
-			"slug": "Hamed Esmaili",
-			"name": "حامد اسماعیلی",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "How Diffing Algorithm Works In React",
-			"avatar": "/static/images/people/hamed.jpg",
-			"socials": [{
-				"url": "http://linkedin.com/in/theham3d",
-				"icon": "linkedin"
-			}, {
-				"url": "https://twitter.com/theham3d",
-				"icon": "twitter"
-			}, {
-				"url": "https://github.com/theham3d",
-				"icon": "github"
-			}],
-			"bio": "Manipulating the DOM‌ is an intensive operation in the browser world, react uses VDOM concept to do that with its own diffing algorithm to improve performance which we aim to go through it to understand what is under the hood."
+			"url": "https://twitter.com/theham3d",
+			"icon": "twitter"
 		}, {
-			"slug": "Samaneh Mohammadi",
-			"name": "سمانه محمدی",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "Styled-Component Architecture",
-			"avatar": "/static/images/people/samaneh.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/samaneh-1994-13-mohammadi/",
-				"icon": "linkedin"
-			}],
-			"bio": "how to make Dynamic interactive user interface based on components and how to use it for building complex interfaces."
+			"url": "https://github.com/theham3d",
+			"icon": "github"
+		}],
+		"bio": "Manipulating the DOM‌ is an intensive operation in the browser world, react uses VDOM concept to do that with its own diffing algorithm to improve performance which we aim to go through it to understand what is under the hood."
+	}, {
+		"slug": "Samaneh Mohammadi",
+		"name": "سمانه محمدی",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "Styled-Component Architecture",
+		"avatar": "/static/images/people/samaneh.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/samaneh-1994-13-mohammadi/",
+			"icon": "linkedin"
+		}],
+		"bio": "how to make Dynamic interactive user interface based on components and how to use it for building complex interfaces."
+	}, {
+		"slug": "Mohamad Jahani",
+		"name": "محمد جهانی",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "useHooks!",
+		"avatar": "/static/images/people/mamal.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/mamal72/",
+			"icon": "linkedin"
 		}, {
-			"slug": "Mohamad Jahani",
-			"name": "محمد جهانی",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "useHooks!",
-			"avatar": "/static/images/people/mamal.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/mamal72/",
-				"icon": "linkedin"
-			}, {
-				"url": "https://github.com/mamal72",
-				"icon": "github"
-			}, {
-				"url": "https://twitter.com/mamal72",
-				"icon": "twitter"
-			}],
-			"bio": "Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like \"What are Hooks?\", \"Why we should use them?\", and \"How to use them?\""
+			"url": "https://github.com/mamal72",
+			"icon": "github"
 		}, {
-			"slug": "Negar Jamalifard",
-			"name": "نگار جمالی فرد",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "How to deal with CORS error in Webpack?",
-			"avatar": "/static/images/people/negar.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/negarjamalifard",
-				"icon": "linkedin"
-			}, {
-				"url": "https://github.com/negarjf",
-				"icon": "github"
-			}, {
-				"url": "https://twitter.com/NegarJamalifard",
-				"icon": "twitter"
-			}, {
-				"url": "https://medium.com/@negarjf",
-				"icon": "medium"
-			}],
-			"bio": "Does CORS error haunts you in every project? Are you tired of asking backend team to handle it? This talk is going to give you all the power to handle this error in development."
+			"url": "https://twitter.com/mamal72",
+			"icon": "twitter"
+		}],
+		"bio": "Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like \"What are Hooks?\", \"Why we should use them?\", and \"How to use them?\""
+	}, {
+		"slug": "Negar Jamalifard",
+		"name": "نگار جمالی فرد",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "How to deal with CORS error in Webpack?",
+		"avatar": "/static/images/people/negar.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/negarjamalifard",
+			"icon": "linkedin"
 		}, {
-			"slug": "Ahmad Karimpour",
-			"name": "احمد کریم پور",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "A Cup of React-Native",
-			"avatar": "/static/images/people/ahmad.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/ahmadina/",
-				"icon": "linkedin"
-			}, {
-				"url": "https://twitter.com/iahmadina",
-				"icon": "twitter"
-			}],
-			"bio": "Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList..."
-		},
+			"url": "https://github.com/negarjf",
+			"icon": "github"
+		}, {
+			"url": "https://twitter.com/NegarJamalifard",
+			"icon": "twitter"
+		}, {
+			"url": "https://medium.com/@negarjf",
+			"icon": "medium"
+		}],
+		"bio": "Does CORS error haunts you in every project? Are you tired of asking backend team to handle it? This talk is going to give you all the power to handle this error in development."
+	}, {
+		"slug": "Ahmad Karimpour",
+		"name": "احمد کریم پور",
+		"is_speaker": true,
+		"is_skype": false,
+		"subject": "A Cup of React-Native",
+		"avatar": "/static/images/people/ahmad.jpg",
+		"socials": [{
+			"url": "https://www.linkedin.com/in/ahmadina/",
+			"icon": "linkedin"
+		}, {
+			"url": "https://twitter.com/iahmadina",
+			"icon": "twitter"
+		}],
+		"bio": "Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList..."
+	},
 		{
 			"slug": "Mohammad Hossein Malek",
 			"name": "محمد حسین ملک",
@@ -209,15 +209,29 @@
 			"subject": "PWA in React!",
 			"avatar": "/static/images/people/malek.jpg",
 			"socials": [{
-					"url": "https://www.linkedin.com/in/mhmalek/",
-					"icon": "linkedin"
-				},
+				"url": "https://www.linkedin.com/in/mhmalek/",
+				"icon": "linkedin"
+			},
 				{
 					"url": "http://instagram.com/mhomalek",
 					"icon": "fa-twitter"
 				}
 			],
 			"bio": "he have more than six years of hands-on experience efficiently developing websites and Web-Applications using Modern Javascript frameworks like React and VueJs. he had the opportunity to be a part of many cool and innovative teams and companies. For now, we just want to talk about how we can develop a great PWA. starts with a simple introduction to PWA and how it is and what issues you might have on this journey and etc."
+		},
+		{
+			"slug": "Mohammad Hossein Malek",
+			"name": "محمد حسین ملک",
+			"is_speaker": true,
+			"is_skype": false,
+			"subject": "State management with React Context API",
+			"avatar": "/static/images/people/tahere.jpg",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/taheregholami",
+				"icon": "linkedin"
+			}
+			],
+			"bio": "Tahere has been developing Frontend applications for 6+ years including more than two years on React/Redux.React Context API is a powerful feature, you might consider using it when your React Application grows in size and depth froma component perspective. "
 		}
 	],
 	"juries": [{
@@ -272,20 +286,26 @@
 		}]
 	}],
 	"team": [{
-		"avatar": "/static/images/people/mahdieh.jpg",
-		"slug": "Mahdieh Noroozian",
-		"bio": "Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies.",
+		"avatar": "/static/images/people/milad.jpg",
+		"slug": "Milad Heydari",
+		"bio": "Founder of Reactconf & Hastnama Creative Solutions",
 		"socials": [{
-			"url": "https://www.linkedin.com/in/mahdieh-noroozian-90016b45/",
+			"url": "http://www.linkedin.com/in/miladheydari",
 			"icon": "linkedin"
-		}, {
-			"url": "https://twitter.com/_mahdieh_",
-			"icon": "twitter"
-		}]
+		},
+			{
+				"url": "http://www.instagram.com/iammilaad",
+				"icon": "twitter"
+			},
+			{
+				"url": "https://github.com/miladbruce",
+				"icon": "github"
+			}
+		]
 	}, {
 		"avatar": "/static/images/people/pourya.jpg",
 		"slug": "Pourya Sharifi",
-		"bio": "Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies.",
+		"bio": "Reactconf Project Manager ",
 		"socials": [{
 			"url": "https://www.linkedin.com/in/alaki",
 			"icon": "linkedin"
@@ -294,15 +314,99 @@
 			"icon": "twitter"
 		}]
 	}, {
-		"avatar": "/static/images/people/farzad.jpg",
-		"slug": "Farzad YousefZadeh",
-		"bio": "Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies.",
+		"avatar": "/static/images/people/ahmad.jpg",
+		"slug": "Ahmad Karimpour",
+		"bio": "Reactconf Organizer",
 		"socials": [{
-			"url": "https://www.linkedin.com/in/farzadyz/",
+			"url": "https://www.linkedin.com/in/ahmadina/",
 			"icon": "linkedin"
 		}, {
-			"url": "https://twitter.com/Farzad_YZ",
+			"url": "https://twitter.com/iahmadina",
 			"icon": "twitter"
 		}]
-	}]
+	},
+		{
+			"avatar": "/static/images/people/samir.jpg",
+			"slug": "Samir Rad",
+			"bio": "Creative Generalist",
+			"socials": [
+				{
+					"url": "http://www.linkedin.com/in/radismedia",
+					"icon": "linkedin"
+				},
+				{
+					"url": "http://www.instagram.com/radismedia",
+					"icon": "instagram"
+				}
+			]
+		},
+		{
+			"avatar": "/static/images/people/arash.jpg",
+			"slug": "Arash Shams",
+			"bio": "React Conf Devops",
+			"socials": [
+				{
+					"url": "https://www.linkedin.com/in/ara4sh/",
+					"icon": "linkedin"
+				},
+				{
+					"url": "https://github.com/Ara4Sh",
+					"icon": "github"
+				}
+			]
+		},
+		{
+			"avatar": "/static/images/people/siamak.jpg",
+			"slug": "Siamak Mokhtari",
+			"bio": "Reactconf Organizer",
+			"socials": [
+				{
+					"url": "https://www.linkedin.com/in/siamakmokhtari/",
+					"icon": "linkedin"
+				},
+				{
+					"url": "https://twitter.com/sia_mac",
+					"icon": "instagram"
+				}
+			]
+		},
+		{
+			"avatar": "/static/images/people/misagh.jpg",
+			"slug": "Misagh Mohammad zadeh",
+			"bio": "Senior Web & Mobile Designer",
+			"socials": [
+				{
+					"url": "https://dribbble.com/misagh_mohamadzadeh",
+					"icon": "dribbble"
+				},
+				{
+					"url": "https://www.behance.net/mohamadzadeh",
+					"icon": "behance"
+				},
+				{
+					"url": "https://www.linkedin.com/in/misagh-mohamadzadeh/",
+					"icon": "linkedin"
+				},
+				{
+					"url": "https://www.instagram.com/misagh_mohamadzadeh/",
+					"icon": "instagram"
+				}
+			]
+		},
+		{
+			"avatar": "/static/images/people/nina.jpg",
+			"slug": "Nina Nemati",
+			"bio": "Senior Web & Mobile Designer",
+			"socials": [
+				{
+					"url": "https://www.linkedin.com/in/nina-nemati/",
+					"icon": "linkedin"
+				},
+				{
+					"url": "https://dribbble.com/NINANEMATI",
+					"icon": "dribbble"
+				}
+			]
+		}
+	]
 }
