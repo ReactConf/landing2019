@@ -1,18 +1,22 @@
 .section {
 	margin: calc(var(--baseline) * 3) 0;
 	&__outline {
-		direction: rtl;
 		.heading {
-			position: -webkit-sticky;
-			position: sticky;
-			top: var(--baseline);
-
 			width: 20rem;
 			font-weight: 888;
 			margin-top: var(--baseline);
 			margin-bottom: 0;
 			max-width: 100%;
 			line-height: calc(var(--baseline) * 1.5);
+			@media only screen and (min-width: 48rem) {
+				position: -webkit-sticky;
+				position: sticky;
+				top: var(--baseline);
+				direction: rtl;
+			}
+			@media only screen and (max-width: 48rem) {
+				@include poly-fluid-sizing("font-size", type-scale(3));
+			}
 		}
 	}
 }
@@ -20,11 +24,15 @@
 .people {
 	margin: 0 0 var(--baseline);
 	&.hero {
-		display: grid;
-		grid-template-columns: 1fr 1.5fr;
-		grid-column-gap: calc(var(--gap) * 2);
+		display: flex;
+		flex-direction: column;
 		justify-items: stretch;
 		align-items: center;
+		@media only screen and (min-width: 48rem) {
+			display: grid;
+			grid-template-columns: 1fr 1.5fr;
+			grid-column-gap: calc(var(--gap) * 2);
+		}
 		.people__avatar {
 			min-height: 400px;
 			img {
@@ -92,25 +100,36 @@
 }
 
 .Grid {
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	grid-gap: calc(var(--gap) * 3);
-	grid-template-areas: ". .";
+	display: flex;
+	flex-direction: column;
+	@media only screen and (min-width: 48rem) {
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-gap: calc(var(--gap) * 3);
+		grid-template-areas: ". .";
+	}
 }
 
 .location {
 	position: relative;
-	background-image: url("/static/images/hall.jpeg");
+	background-image: url("/static/images/hall.jpg");
 	background-size: cover;
+	background-position: center;
 	background-color: var(--black-color);
 	min-height: 40rem;
-	height: 80vh;
+	@media only screen and (min-width: 48rem) {
+		height: 80vh;
+	}
 	&__query {
 		position: absolute;
 		bottom: 0;
 		width: 33.3%;
 		padding: var(--gap);
 		background: var(--background-color);
+		@media only screen and (max-width: 48rem) {
+			position: relative;
+			width: 100%;
+		}
 		h3 {
 			font-weight: 800;
 			line-height: 1.2;
@@ -156,6 +175,7 @@
 	background-color: var(--black-color);
 	background-image: url("/static/images/ticket.jpg");
 	background-size: cover;
+	background-position: center;
 	min-height: 40rem;
 	height: 50vh;
 	// background-image: linear-gradient(to right top, #dd51a0, #d26abd, #c381d3, #b395e3, #a7a7ec, #99b4f6, #8cc0fb, #83cbfe, #67d7ff, #49e1ff, #37ebf7, #43f4e8);

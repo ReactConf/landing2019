@@ -246,11 +246,11 @@ export default class Main extends Component {
 						<div className="container">
 							<section className="section__main">
 								<h2 className="tx-gr-orange">Presenter</h2>
-								<Grid width={300} gap={"var(--gap)"}>
+								<Grid width={320} gap={"var(--gap)"}>
 									<People
 										className="hero"
 										name={"Sara Hashemi"}
-										avatar="https://reactconf.ir/static/image/presenter.jpg"
+										avatar="/static/image/presenter.jpg"
 										bio="Founder and CEO of Wink App. Experienced Product Manager with a demonstrated history of working in the marketing and advertising industry. Skilled in Negotiation, Business Planning, Retail, and Customer Relationship Management (CRM). Strong product management professional with a Master of Business Administration (M.B.A.) focused in MEBA from IMI (Industrial Management Institute)."
 									/>
 								</Grid>
@@ -267,7 +267,7 @@ export default class Main extends Component {
 									</h3>
 								</aside>
 								<section className="section__main">
-									<Grid width={300} gap={"var(--gap)"}>
+									<Grid width={320} gap={"var(--gap)"}>
 										{peoples.map((p, i) => (
 											<People
 												key={i}
@@ -401,7 +401,7 @@ export default class Main extends Component {
 									<h3 className="heading">Jury</h3>
 								</aside>
 								<section className="section__main">
-									<Grid width={300} gap={"var(--gap)"}>
+									<Grid width={320} gap={"var(--gap)"}>
 										{juries.map((p, i) => (
 											<People
 												key={i}
@@ -552,7 +552,7 @@ export default class Main extends Component {
 									<h3 className="heading">CORE TEAM</h3>
 								</aside>
 								<section className="section__main">
-									<Grid width={300} gap={"var(--gap)"}>
+									<Grid width={320} gap={"var(--gap)"}>
 										{team.map((p, i) => (
 											<People
 												key={i}

@@ -1,7 +1,7 @@
 // Variables:
 $type-settings: (
 	320: (
-		"ratio": 1.333,
+		"ratio": 1.5,
 		"base": 14,
 		"types": (
 			1: (
@@ -22,7 +22,7 @@ $type-settings: (
 		)
 	),
 	576: (
-		"ratio": 1.333,
+		"ratio": 1.5,
 		"base": 16,
 		"types": (
 			1: (
@@ -32,10 +32,10 @@ $type-settings: (
 				line-height: 1
 			),
 			3: (
-				line-height: 1
+				line-height: 2
 			),
 			4: (
-				line-height: 2
+				line-height: 2.5
 			),
 			5: (
 				line-height: 3
@@ -337,11 +337,6 @@ h4 {
 h1 {
 	@include poly-fluid-sizing("font-size", type-scale(4));
 	font-weight: 900;
-	// word-spacing: 0.02em;
-	// letter-spacing: -0.026em;
-	&.large {
-		@include poly-fluid-sizing("font-size", type-scale(5));
-	}
 }
 
 h2 {
@@ -356,8 +351,11 @@ h3 {
 	// letter-spacing: -0.036em;
 }
 
+h4 {
+	@include poly-fluid-sizing("font-size", type-scale(1));
+}
+
 p,
-h4,
 ul,
 ol {
 	margin-top: 0;
