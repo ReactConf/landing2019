@@ -1,6 +1,5 @@
 import Document, { Head, Main, NextScript } from "next/document";
 // import { ServerStyleSheet } from "styled-components";
-
 class SiteDocument extends Document {
 	render() {
 		// const sheet = new ServerStyleSheet();
@@ -29,7 +28,7 @@ class SiteDocument extends Document {
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer',"GTM-MKF6XHF");`,
+      })(window,document,'script','dataLayer',"GTM-MKF6XHF");`
 						}}
 					/>
 					<noscript
@@ -43,10 +42,10 @@ class SiteDocument extends Document {
                             style={{display:'none",visibility:"hidden"}}
                         >
                         </iframe>
-                    `,
+                    `
 						}}
 					/>
-					<meta charSet="utf-8"/>
+					<meta charSet="utf-8" />
 					<title>
 						ReactConf 2019 | Javascript & ReactJS Conference
 					</title>
@@ -54,12 +53,12 @@ class SiteDocument extends Document {
 						name="google-site-verification"
 						content="xyvPYPKo2DCCYlIRzLEqKNFVVLximNJ-QVej3jo0NcE"
 					/>
-					<meta name="robots" content="index, follow"/>
+					<meta name="robots" content="index, follow" />
 					<meta
 						name="description"
 						content="First Javascript & ReactJS Conference in IRAN, Algorithm, Data Structure,ReactJS,NodeJS,Graphql and etc…"
 					/>
-					<meta name="image" content="/static/images/reactconf.jpg"/>
+					<meta name="image" content="/static/images/reactconf.jpg" />
 					<meta
 						itemProp="name"
 						content="React Conf | Javascript & ReactJS Conference"
@@ -72,7 +71,7 @@ class SiteDocument extends Document {
 						itemProp="image"
 						content="/static/images/reactconf.jpg"
 					/>
-					<meta name="twitter:card" content="summary"/>
+					<meta name="twitter:card" content="summary" />
 					<meta
 						name="twitter:title"
 						content="React Conf | Javascript & ReactJS Conference"
@@ -81,7 +80,7 @@ class SiteDocument extends Document {
 						name="twitter:description"
 						content="First Javascript & ReactJS Conference in IRAN, Algorithm, Data Structure,ReactJS,NodeJS,Graphql and etc…"
 					/>
-					<meta name="twitter:site" content="@reactconf_ir"/>
+					<meta name="twitter:site" content="@reactconf_ir" />
 					<meta
 						name="twitter:image:src"
 						content="/static/images/icon/apple-touch-icon.png"
@@ -98,13 +97,13 @@ class SiteDocument extends Document {
 						name="og:image"
 						content="/static/images/reactconf.jpg"
 					/>
-					<meta name="og:url" content="http://reactconf.ir"/>
+					<meta name="og:url" content="http://reactconf.ir" />
 					<meta
 						name="og:site_name"
 						content="React Conf | Javascript & ReactJS Conference"
 					/>
-					<meta name="og:locale" content="en_US"/>
-					<meta name="og:type" content="website"/>
+					<meta name="og:locale" content="en_US" />
+					<meta name="og:type" content="website" />
 					<link
 						rel="apple-touch-icon"
 						href="/static/images/icon/apple-touch-icon.png"
