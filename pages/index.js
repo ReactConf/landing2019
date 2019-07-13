@@ -528,6 +528,106 @@ export default class Main extends Component {
 									</figure>
 									<figure className="sponsors--item">
 										<a
+											href="https://virgool.io/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/virgool.png"
+												alt="virgool"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													virgool
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://zoomtech.org/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/zoomtech.png"
+												alt="zoomtech"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													zoomtech
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://www.instagram.com/radismedia/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/radismedia.png"
+												alt="radismedia"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													radismedia
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://roocket.ir/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/rocket.png"
+												alt="roocket"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													roocket
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://macneed.ir/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/macneed.png"
+												alt="macneed"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													macneed
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
 											href="https://www.afkarnews.com/"
 											target="_blank"
 										>
