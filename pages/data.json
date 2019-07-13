@@ -104,7 +104,27 @@
 				"icon": "github"
 			}],
 			"bio": "Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."
-		}, {
+		},
+		{
+			"slug": "Mohammad Hasan Gilak",
+			"name": "میلاد حیدری",
+			"is_speaker": true,
+			"is_skype": false,
+			"subject": "React Server-Side Rendering",
+			"avatar": "/static/images/people/hasan.jpg",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/mohammad-hassan-gilak-9248268a/",
+				"icon": "linkedin"
+			}, {
+				"url": "https://twitter.com/hasangilak",
+				"icon": "twitter"
+			}, {
+				"url": "https://github.com/hasangilak",
+				"icon": "github"
+			}],
+			"bio": "render on the server rather than in the browser. talk about Cons of Rendering React on the Server, Architecture, Performance and challenges."
+		},
+		{
 			"slug": "Ehsan Mohammadi",
 			"name": "احسان محمدی",
 			"is_speaker": true,
@@ -164,42 +184,6 @@
 				"icon": "twitter"
 			}],
 			"bio": "Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like \"What are Hooks?\", \"Why we should use them?\", and \"How to use them?\""
-		}, {
-			"slug": "Negar Jamalifard",
-			"name": "نگار جمالی فرد",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "How to deal with CORS error in Webpack?",
-			"avatar": "/static/images/people/negar.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/negarjamalifard",
-				"icon": "linkedin"
-			}, {
-				"url": "https://github.com/negarjf",
-				"icon": "github"
-			}, {
-				"url": "https://twitter.com/NegarJamalifard",
-				"icon": "twitter"
-			}, {
-				"url": "https://medium.com/@negarjf",
-				"icon": "medium"
-			}],
-			"bio": "Does CORS error haunts you in every project? Are you tired of asking backend team to handle it? This talk is going to give you all the power to handle this error in development."
-		}, {
-			"slug": "Ahmad Karimpour",
-			"name": "احمد کریم پور",
-			"is_speaker": true,
-			"is_skype": false,
-			"subject": "A Cup of React-Native",
-			"avatar": "/static/images/people/ahmad.jpg",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/ahmadina/",
-				"icon": "linkedin"
-			}, {
-				"url": "https://twitter.com/fatalerrs",
-				"icon": "twitter"
-			}],
-			"bio": "Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList..."
 		},
 		{
 			"slug": "Mohammad Hossein Malek",
@@ -220,6 +204,22 @@
 			"bio": "he have more than six years of hands-on experience efficiently developing websites and Web-Applications using Modern Javascript frameworks like React and VueJs. he had the opportunity to be a part of many cool and innovative teams and companies. For now, we just want to talk about how we can develop a great PWA. starts with a simple introduction to PWA and how it is and what issues you might have on this journey and etc."
 		},
 		{
+			"slug": "Ahmad Karimpour",
+			"name": "احمد کریم پور",
+			"is_speaker": true,
+			"is_skype": false,
+			"subject": "A Cup of React-Native",
+			"avatar": "/static/images/people/ahmad.jpg",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/ahmadina/",
+				"icon": "linkedin"
+			}, {
+				"url": "https://twitter.com/fatalerrs",
+				"icon": "twitter"
+			}],
+			"bio": "Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList..."
+		},
+		{
 			"slug": "Tahere Gholami",
 			"name": "طاهره غلامی",
 			"is_speaker": true,
@@ -231,6 +231,27 @@
 				"icon": "linkedin"
 			}],
 			"bio": "Tahere has been developing Frontend applications for 6+ years including more than two years on React/Redux.React Context API is a powerful feature, you might consider using it when your React Application grows in size and depth froma component perspective. "
+		},{
+			"slug": "Negar Jamalifard",
+			"name": "نگار جمالی فرد",
+			"is_speaker": true,
+			"is_skype": false,
+			"subject": "How to deal with CORS error in Webpack?",
+			"avatar": "/static/images/people/negar.jpg",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/negarjamalifard",
+				"icon": "linkedin"
+			}, {
+				"url": "https://github.com/negarjf",
+				"icon": "github"
+			}, {
+				"url": "https://twitter.com/NegarJamalifard",
+				"icon": "twitter"
+			}, {
+				"url": "https://medium.com/@negarjf",
+				"icon": "medium"
+			}],
+			"bio": "Does CORS error haunts you in every project? Are you tired of asking backend team to handle it? This talk is going to give you all the power to handle this error in development."
 		}
 	],
 	"juries": [{
@@ -408,6 +429,16 @@
 					"url": "https://dribbble.com/NINANEMATI",
 					"icon": "dribbble"
 				}
+			]
+		},
+		{
+			"avatar": "/static/images/people/mehryar.jpg",
+			"slug": "Mehryar Sanandaji",
+			"bio": "Creative UI/UX designer",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/mehryars/",
+				"icon": "linkedin"
+			}
 			]
 		}
 	]

@@ -212,7 +212,6 @@ export default class Main extends Component {
 										#ReactConfIran2019
 									</a>{" "}
 									Iran is a Iranian web, mobile development &
-									Iran is a Iranian web, mobile development &
 									everything about javascript development
 									event.
 								</p>
@@ -483,6 +482,26 @@ export default class Main extends Component {
 												<span className="sponsors--item-type black-light">
 													Designer of
 													ReactConfIran2019
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="hhttps://tavanito.com/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/tavanito.png"
+												alt="tavanito"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													Tavanito
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
 												</span>
 											</figcaption>
 										</a>
