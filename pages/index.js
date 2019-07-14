@@ -608,6 +608,26 @@ export default class Main extends Component {
 									</figure>
 									<figure className="sponsors--item">
 										<a
+											href="https://flerbo.ir/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/flerbo.png"
+												alt="flerbo"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													Flerbo
+												</b>
+												<span className="sponsors--item-type black-light">
+													Sticker Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
 											href="https://macneed.ir/"
 											target="_blank"
 										>
