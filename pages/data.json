@@ -452,6 +452,36 @@
 				"icon": "linkedin"
 			}
 			]
+		},
+		{
+			"avatar": "/static/images/people/iman.jpg",
+			"slug": "Iman Aletaha",
+			"bio": "Community Lounge",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/iman-aletaha-b296234b/",
+				"icon": "linkedin"
+			}
+			]
+		},
+		{
+			"avatar": "/static/images/people/roya.jpg",
+			"slug": "Roya Peyro",
+			"bio": "Photographer",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/roya-peyro-569537120/",
+				"icon": "linkedin"
+			}
+			]
+		},
+		{
+			"avatar": "/static/images/people/eli.jpg",
+			"slug": "Elaheh Afrashteh",
+			"bio": "Photographer",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/elaheh-afrashteh-78a23513b/",
+				"icon": "linkedin"
+			}
+			]
 		}
 	]
 }
