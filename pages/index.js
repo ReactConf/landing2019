@@ -7,19 +7,19 @@ import Head from "../components/head";
 import Schedule from "../components/schedule";
 import People from "../components/people";
 import Countdown from "../components/countdown";
-import { SmoothScroll } from "../components/utils/utils";
+// import { SmoothScroll } from "../components/utils/utils";
 import data from "./data";
 import "../styles/styles.scss";
 
 const { peoples, juries, team } = data;
 
 export default class Main extends Component {
-	componentDidMount() {
-		const isServer = typeof window === "undefined";
-		if (!isServer) {
-			new SmoothScroll(document, 27, 1);
-		}
-	}
+	// componentDidMount() {
+	// 	const isServer = typeof window === "undefined";
+	// 	if (!isServer) {
+	// 		new SmoothScroll(document, 27, 1);
+	// 	}
+	// }
 
 	render() {
 		return (
