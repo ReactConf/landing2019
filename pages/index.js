@@ -209,11 +209,16 @@ export default class Main extends Component {
 							<Parallax y={[-20, 60]} tagOuter="div">
 								<p className="description">
 									<a href="https://twitter.com/hashtag/ReactConfIran2019">
-										#ReactConfIran2019
+										#ReactConf
 									</a>{" "}
-									Iran is a Iranian web, mobile development &
+									is a Iranian web, mobile development &
 									everything about javascript development
 									event.
+								</p>
+								<p className="description">
+									<b>Day:</b> 7 Shahrivar 1398
+									<br/>
+									<b>Time:</b> 08:00 AM Until 08:00 PM
 								</p>
 								<a className="btn" href="/ticket">
 									<svg
