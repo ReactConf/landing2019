@@ -633,6 +633,66 @@ export default class Main extends Component {
 									</figure>
 									<figure className="sponsors--item">
 										<a
+											href="https://winkapp.ir/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/wink.png"
+												alt="Wink"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													Wink
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://reactapp.ir/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/reactapp.png"
+												alt="reactapp"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													ReactApp
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://raychat.io/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/raychat.png"
+												alt="raychat"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													RayChat
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
 											href="https://macneed.ir/"
 											target="_blank"
 										>
