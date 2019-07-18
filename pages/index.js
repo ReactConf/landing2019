@@ -211,7 +211,7 @@ export default class Main extends Component {
 									<a href="https://twitter.com/hashtag/ReactConfIran2019">
 										#ReactConf
 									</a>{" "}
-									is a Iranian web, mobile development &
+									is an Iranian web, mobile development &
 									everything about javascript development
 									event.
 								</p>
@@ -684,6 +684,46 @@ export default class Main extends Component {
 											<figcaption>
 												<b className="sponsors--item-title">
 													RayChat
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://webzi.ir/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/webzi.png"
+												alt="webzi"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													Webzi
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://giftak.net"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/giftak.png"
+												alt="giftak"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													giftak
 												</b>
 												<span className="sponsors--item-type black-light">
 													Media Sponsor
