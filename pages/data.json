@@ -529,6 +529,11 @@
 			"url": "http://hamyar.co"
 		},
 		{
+			"title": "Zhaket",
+			"logo": "/static/images/partners/zhaket.png",
+			"url": "https://zhaket.com/"
+		},
+		{
 			"title": "Virgool",
 			"logo": "/static/images/partners/virgool.png",
 			"url": "https://virgool.io"
@@ -600,7 +605,7 @@
 		},
 		{
 			"title": "binosha",
-			"logo": "/static/images/partners/binosha.png",
+			"logo": "/static/images/partners/Binosha.png",
 			"url": "https://binosha.com"
 		},
 		{
