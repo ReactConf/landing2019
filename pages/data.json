@@ -96,9 +96,13 @@
 		"socials": [{
 			"url": "http://www.linkedin.com/in/miladheydari",
 			"icon": "linkedin"
-		}, {
+		},
+			{
+				"url": "https://twitter.com/iammilaad",
+				"icon": "twitter"
+			},{
 			"url": "http://www.instagram.com/iammilaad",
-			"icon": "twitter"
+			"icon": "instagram"
 		}, {
 			"url": "https://github.com/miladbruce",
 			"icon": "github"

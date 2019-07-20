@@ -100,7 +100,7 @@ class SiteDocument extends Document {
 					/>
 					<meta
 						name="og:image"
-						content="/static/images/reactconf.jpg"
+						content="/static/images/reactconf.png"
 					/>
 					<meta name="og:url" content="http://reactconf.ir" />
 					<meta

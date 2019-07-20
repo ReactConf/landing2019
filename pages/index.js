@@ -513,6 +513,46 @@ export default class Main extends Component {
 									</figure>
 									<figure className="sponsors--item">
 										<a
+											href="hhttps://zhacket.com/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/zhaket.png"
+												alt="zhaket"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													zhaket
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="http://hamyar.co"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/hamyar.png"
+												alt="hamyar"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													Hamyar.co
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
 											href="https://ponisha.ir/"
 											target="_blank"
 										>
@@ -564,6 +604,26 @@ export default class Main extends Component {
 											<figcaption>
 												<b className="sponsors--item-title">
 													zoomtech
+												</b>
+												<span className="sponsors--item-type black-light">
+													Media Sponsor
+												</span>
+											</figcaption>
+										</a>
+									</figure>
+									<figure className="sponsors--item">
+										<a
+											href="https://webbranding.org/"
+											target="_blank"
+										>
+											<img
+												src="/static/images/partners/webbranding.png"
+												alt="webbranding"
+												className="sponsors--item-image"
+											/>
+											<figcaption>
+												<b className="sponsors--item-title">
+													webbranding
 												</b>
 												<span className="sponsors--item-type black-light">
 													Media Sponsor
