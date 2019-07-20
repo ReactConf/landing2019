@@ -154,6 +154,12 @@
 	object-fit: cover;
 	object-position: 50% 50%;
 	filter: grayscale(1);
+	opacity: 0.6;
+	transition: 0.3s;
+
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .sponsors--item-title {

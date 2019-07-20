@@ -145,7 +145,7 @@ export default class Main extends Component {
 					<header className="header">
 						<div className="container-fluid">
 							<div className="brand">
-								<Link href="/" title="همایش ری اکت | reactconf">
+								<Link href="/">
 									<a href="/" title="همایش ری اکت | reactconf">
 										<svg
 											width={150}
