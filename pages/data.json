@@ -330,10 +330,12 @@
 			"icon": "linkedin"
 		},
 			{
-				"url": "http://www.instagram.com/iammilaad",
+				"url": "https://twitter.com/iammilaad",
 				"icon": "twitter"
-			},
-			{
+			},{
+				"url": "http://www.instagram.com/iammilaad",
+				"icon": "instagram"
+			}, {
 				"url": "https://github.com/miladbruce",
 				"icon": "github"
 			}
@@ -486,6 +488,145 @@
 				"icon": "linkedin"
 			}
 			]
+		}
+	],
+	"partners" : [
+		{
+			"title": "ارتباطات هشومند تبیان",
+			"logo": "/static/images/partners/vip/tebyan.png",
+			"url": "#"
+		},
+		{
+			"title": "شرکت بین المللی ایده پرداز عصر ویرا",
+			"logo": "/static/images/partners/vip/vira.png",
+			"url": "http://vira.co.com/"
+		},
+		{
+			"title": "شرکت بهارسامانه شرق",
+			"logo": "/static/images/partners/vip/baharsamaneh.png",
+			"url": "https://baharnet.ir/"
+		},
+		{
+			"title": "ایده نگاران هست نما",
+			"logo": "/static/images/partners/vip/hastnama.png",
+			"url": "http://hastnama.com"
+		}
+	],
+	"sponsors" : [
+		{
+			"title": "‌Siamak Mokhtari",
+			"logo": "/static/images/partners/siamak.png",
+			"url": "https://siamak.us"
+		},
+		{
+			"title": "Tavanito",
+			"logo": "/static/images/partners/tavanito.png",
+			"url": "https://tavanito.com/"
+		},
+		{
+			"title": "Hamyar.Co",
+			"logo": "/static/images/partners/hamyar.png",
+			"url": "http://hamyar.co"
+		},
+		{
+			"title": "Virgool",
+			"logo": "/static/images/partners/virgool.png",
+			"url": "https://virgool.io"
+		},
+		{
+			"title": "Ponisha",
+			"logo": "/static/images/partners/ponisha.png",
+			"url": "https://ponisha.ir/"
+		},
+		{
+			"title": "zoomtech",
+			"logo": "/static/images/partners/zoomtech.png",
+			"url": "http://zoomtech.com"
+		},
+		{
+			"title": "Webbranding",
+			"logo": "/static/images/partners/webbranding.png",
+			"url": "https://webbranding.org/"
+		},
+		{
+			"title": "radismedia",
+			"logo": "/static/images/partners/radismedia.png",
+			"url": "https://www.instagram.com/radismedia/"
+		},
+		{
+			"title": "roocket",
+			"logo": "/static/images/partners/rocket.png",
+			"url": "https://roocket.ir/"
+		},
+		{
+			"title": "flerbo",
+			"logo": "/static/images/partners/flerbo.png",
+			"url": "https://flerbo.ir/"
+		},
+		{
+			"title": "winkapp",
+			"logo": "/static/images/partners/wink.png",
+			"url": "https://winkapp.ir/"
+		},
+		{
+			"title": "reactapp",
+			"logo": "/static/images/partners/reactapp.png",
+			"url": "https://reactapp.ir/"
+		},
+		{
+			"title": "raychat",
+			"logo": "/static/images/partners/raychat.png",
+			"url": "https://raychat.io/"
+		},
+		{
+			"title": "webzi",
+			"logo": "/static/images/partners/webzi.png",
+			"url": "https://webzi.ir/"
+		},
+		{
+			"title": "giftak",
+			"logo": "/static/images/partners/giftak.png",
+			"url": "https://giftak.net"
+		},
+		{
+			"title": "macneed",
+			"logo": "/static/images/partners/macneed.png",
+			"url": "https://macneed.ir/"
+		},
+		{
+			"title": "afkarnews",
+			"logo": "/static/images/partners/afkar.png",
+			"url": "https://www.afkarnews.com/"
+		},
+		{
+			"title": "binosha",
+			"logo": "/static/images/partners/binosha.png",
+			"url": "https://binosha.com"
+		},
+		{
+			"title": "aasaam",
+			"logo": "/static/images/partners/aasaam.png",
+			"url": "https://aasaam.com/"
+		},
+		{
+			"title": "arjang",
+			"logo": "/static/images/partners/arjang.png",
+			"url": "https://arjang.ac.ir/"
+		},
+		{
+			"title": "ciwiran",
+			"logo": "/static/images/partners/ciw.png",
+			"url": "https://ciwiran.com/"
+		},
+		{
+			"title": "frontcast",
+			"logo": "/static/images/partners/frontcast.png",
+			"url": "http://frontcast.ir/"
+		},
+		{
+			"title": "gadgetnews",
+			"logo": "/static/images/partners/gadgetnews.png",
+			"url": "https://gadgetnews.net"
 		}
 	]
 }
