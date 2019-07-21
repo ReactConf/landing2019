@@ -292,7 +292,27 @@ export default class Main extends Component {
 							</section>
 						</div>
 					</section>
-
+					<section className="section">
+						<div className="container-fluid">
+							<section className="Grid">
+								<aside className="section__outline">
+									<h3 className="heading">
+										Special Talk
+									</h3>
+								</aside>
+								<section className="section__main">
+									<div className="talk">
+										<div className="talk__query">
+											<h3>Technical Talk.</h3>
+											<p>
+												Talking about JS Projects.
+											</p>
+										</div>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
 					<section className="section">
 						<div className="container">
 							<h2 className="tx-gr-blue">Ticket</h2>
