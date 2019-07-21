@@ -224,6 +224,22 @@
 			"bio": "Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList..."
 		},
 		{
+			"slug": "Ehsan Hosseini",
+			"name": "احسان حسینی",
+			"is_speaker": true,
+			"is_skype": true,
+			"subject": "Micro-Frontend",
+			"avatar": "/static/images/people/ehsun-h.jpg",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/ehsan-hosseini-a92a676b/",
+				"icon": "linkedin"
+			}, {
+				"url": "https://github.com/zerob4wl",
+				"icon": "github"
+			}],
+			"bio": "What do you do if you need an enterprise Front-end application? How to develop each part of the application completely in an independent team with their structure, libraries, and framework as a separate application? And how these applications will communicate with each other? These questions will be answered by Micro-Frontend concept."
+		},
+		{
 			"slug": "Tahere Gholami",
 			"name": "طاهره غلامی",
 			"is_speaker": true,
@@ -240,7 +256,7 @@
 					"icon": "medium"
 				}
 			],
-			"bio": "Tahere has been developing Frontend applications for 6+ years including more than two years on React/Redux.React Context API is a powerful feature, you might consider using it when your React Application grows in size and depth froma component perspective. "
+			"bio": "Tahere has been developing Frontend applications for 6+ years including more than two years on React/Redux.React Context API is a powerful feature, you might consider using it when your React Application grows in size and depth from a component perspective. "
 		},{
 			"slug": "Negar Jamalifard",
 			"name": "نگار جمالی فرد",
