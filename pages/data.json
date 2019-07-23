@@ -605,6 +605,16 @@
 			"url": "https://webzi.ir/"
 		},
 		{
+			"title": "sazito",
+			"logo": "/static/images/partners/sazito.png",
+			"url": "https://sazito.com/"
+		},
+		{
+			"title": "Tehran React Group",
+			"logo": "/static/images/partners/reacttehran.png",
+			"url": "https://t.me/reactGroup"
+		},
+		{
 			"title": "giftak",
 			"logo": "/static/images/partners/giftak.png",
 			"url": "https://giftak.net"
