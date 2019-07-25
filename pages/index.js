@@ -502,7 +502,7 @@ export default class Main extends Component {
 									<h3 className="heading">CORE TEAM</h3>
 								</aside>
 								<section className="section__main">
-									<Grid width={320} gap={"var(--gap)"}>
+									<Grid width={280} gap={"var(--gap)"}>
 										{team.map((p, i) => (
 											<People
 												key={i}

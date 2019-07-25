@@ -466,26 +466,6 @@
 			]
 		},
 		{
-			"avatar": "/static/images/people/mehryar.jpg",
-			"slug": "Mehryar Sanandaji",
-			"bio": "Creative UI/UX designer",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/mehryars/",
-				"icon": "linkedin"
-			}
-			]
-		},
-		{
-			"avatar": "/static/images/people/iman.jpg",
-			"slug": "Iman Aletaha",
-			"bio": "Community Lounge",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/iman-aletaha-b296234b/",
-				"icon": "linkedin"
-			}
-			]
-		},
-		{
 			"avatar": "/static/images/people/roya.jpg",
 			"slug": "Roya Peyro",
 			"bio": "Creative Generalist & Photographer",
@@ -501,6 +481,26 @@
 			"bio": "Creative Generalist & Photographer",
 			"socials": [{
 				"url": "https://www.linkedin.com/in/elaheh-afrashteh-78a23513b/",
+				"icon": "linkedin"
+			}
+			]
+		},
+		{
+			"avatar": "/static/images/people/mehryar.jpg",
+			"slug": "Mehryar Sanandaji",
+			"bio": "Creative UI/UX designer",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/mehryars/",
+				"icon": "linkedin"
+			}
+			]
+		},
+		{
+			"avatar": "/static/images/people/iman.jpg",
+			"slug": "Iman Aletaha",
+			"bio": "Community Lounge",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/iman-aletaha-b296234b/",
 				"icon": "linkedin"
 			}
 			]
