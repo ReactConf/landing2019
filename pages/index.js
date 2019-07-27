@@ -293,14 +293,10 @@ export default class Main extends Component {
 						</div>
 					</section>
 					<section className="section">
-						<div className="container-fluid">
-							<section className="Grid">
-								<aside className="section__outline">
-									<h3 className="heading">
-										Special Talk
-									</h3>
-								</aside>
-								<section className="section__main">
+						<div className="container">
+							<section className="section__main">
+								<h2 className="tx-gr-pink">Special Talk</h2>
+								<Parallax y={[-10, 10]} tagOuter="div">
 									<div className="talk">
 										<div className="talk__query">
 											<h3>Technical Talk.</h3>
@@ -309,7 +305,7 @@ export default class Main extends Component {
 											</p>
 										</div>
 									</div>
-								</section>
+								</Parallax>
 							</section>
 						</div>
 					</section>
@@ -426,7 +422,32 @@ export default class Main extends Component {
 							</section>
 						</div>
 					</section>
+					{/* <section className="section">
+						<div className="container">
+							<section className="section__main">
+								<h2 className="tx-gr-pink">Online Job Fair</h2>
+								<Parallax y={[-10, 10]} tagOuter="div">
+									<div className="location">
+										<div className="location__query">
+											<h3>Looking for a job?</h3>
+											<h5 className="tx-gr-pink">Online Video Interview</h5>
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
 
+											</p>
+											<a
+												href="https://www.google.com/maps/place/Holy+Defense+Museum/@35.7533039,51.4255214,15z/data=!4m2!3m1!1s0x0:0x936f271446787a93?sa=X&ved=2ahUKEwicvKjh-anjAhWNW80KHfgkC8UQ_BIwDnoECA8QCA"
+												className="btn"
+												target="_blank"
+											>
+												Start a new job!
+											</a>
+										</div>
+									</div>
+								</Parallax>
+							</section>
+						</div>
+					</section> */}
 					<section className="section">
 						<div className="container-fluid">
 							<section className="Grid">
@@ -434,7 +455,7 @@ export default class Main extends Component {
 									<h3 className="heading">Jury</h3>
 								</aside>
 								<section className="section__main">
-									<Grid width={320} gap={"var(--gap)"}>
+									<Grid width={280} gap={"var(--gap)"}>
 										{juries.map((p, i) => (
 											<People
 												key={i}

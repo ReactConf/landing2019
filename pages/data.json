@@ -4,7 +4,7 @@
 		"name": "پدرام مرندی",
 		"is_speaker": true,
 		"is_skype": true,
-		"subject": "What is Graphql and how to implement a scalable GraphQL project with React & Apollo?",
+		"subject": "What is GraphQL and how to implement a scalable GraphQL project with React & Apollo?",
 		"avatar": "/static/images/people/pedram.jpg",
 		"socials": [{
 			"url": "https://www.linkedin.com/in/pedrammarandi/",
@@ -91,7 +91,7 @@
 		"name": "میلاد حیدری",
 		"is_speaker": true,
 		"is_skype": false,
-		"subject": "hiring issues in Front-End Community",
+		"subject": "Hiring issues in Front-End Community",
 		"avatar": "/static/images/people/milad.jpg",
 		"socials": [{
 			"url": "http://www.linkedin.com/in/miladheydari",
@@ -101,12 +101,12 @@
 				"url": "https://twitter.com/iammilaad",
 				"icon": "twitter"
 			},{
-			"url": "http://www.instagram.com/iammilaad",
-			"icon": "instagram"
-		}, {
-			"url": "https://github.com/miladbruce",
-			"icon": "github"
-		}],
+				"url": "http://www.instagram.com/iammilaad",
+				"icon": "instagram"
+			}, {
+				"url": "https://github.com/miladbruce",
+				"icon": "github"
+			}],
 		"bio": "Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."
 	},
 		{
@@ -304,27 +304,16 @@
 			}]
 		},
 		{
-		"avatar": "/static/images/people/mahdieh.jpg",
-		"slug": "Mahdieh Noroozian",
-		"socials": [{
-			"url": "https://www.linkedin.com/in/mahdieh-noroozian-90016b45/",
-			"icon": "linkedin"
-		}, {
-			"url": "https://twitter.com/_mahdieh_",
-			"icon": "twitter"
-		}]
-	}, {
-		"avatar": "/static/images/people/pourya.jpg",
-		"slug": "Pourya Sharifi",
-		"socials": [{
-			"url": "https://www.linkedin.com/in/alaki",
-			"icon": "linkedin"
-		}, {
-			"url": "https://twitter.com/alaki",
-			"icon": "twitter"
-		}]
-	},
-
+			"avatar": "/static/images/people/mahdieh.jpg",
+			"slug": "Mahdieh Noroozian",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/mahdieh-noroozian-90016b45/",
+				"icon": "linkedin"
+			}, {
+				"url": "https://twitter.com/_mahdieh_",
+				"icon": "twitter"
+			}]
+		},
 		{
 			"avatar": "/static/images/people/farzad.jpg",
 			"slug": "Farzad YousefZadeh",
@@ -553,6 +542,11 @@
 			"title": "Virgool",
 			"logo": "/static/images/partners/virgool.png",
 			"url": "https://virgool.io"
+		},
+		{
+			"title": "IranServer",
+			"logo": "/static/images/partners/iranserver.png",
+			"url": "https://www.iranserver.com/"
 		},
 		{
 			"title": "Ponisha",
