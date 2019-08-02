@@ -208,7 +208,6 @@ export default class Main extends Component {
 								</h1>
 							</Parallax>
 
-							<Parallax y={[-20, 60]} tagOuter="div">
 								<p className="description">
 									<a href="https://twitter.com/hashtag/ReactConfIran2019">
 										#ReactConf
@@ -224,29 +223,27 @@ export default class Main extends Component {
 									<br/>
 									<b>Location:</b> Holy Defense Museum Hall
 								</p>
-								<a className="btn" href="/ticket">
-									<svg
-										width={24}
-										height={24}
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<g
-											stroke="#000"
-											strokeWidth="1.5"
-											fill="none"
-											fillRule="evenodd"
-											strokeLinecap="round"
-											strokeLinejoin="round"
+									<a className="btn" href="/ticket">
+										<svg
+											width={24}
+											height={24}
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
 										>
-											<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
-											<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
-										</g>
-									</svg>
-									Buy ticket
-								</a>
-							</Parallax>
-
+											<g
+												stroke="#000"
+												strokeWidth="1.5"
+												fill="none"
+												fillRule="evenodd"
+												strokeLinecap="round"
+												strokeLinejoin="round"
+											>
+												<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
+												<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
+											</g>
+										</svg>
+										Buy ticket
+									</a>
 							<Countdown />
 						</div>
 					</header>
@@ -339,64 +336,207 @@ export default class Main extends Component {
 						</section>
 					</section>
 
-					{/*<section className="section">*/}
-					{/*	<div className="container-fluid">*/}
-					{/*		<section className="Grid">*/}
-					{/*			<aside className="section__outline">*/}
-					{/*				<h3 className="heading">Schedules</h3>*/}
-					{/*			</aside>*/}
-					{/*			<section className="section__main">*/}
-					{/*				<section className="table">*/}
-					{/*					<header className="table-row table-head_featured">*/}
-					{/*						<div className="wrap-row">*/}
-					{/*							23 Auguest 2019*/}
-					{/*						</div>*/}
-					{/*					</header>*/}
-					{/*					<Schedule*/}
-					{/*						id={1}*/}
-					{/*						people={"Ana Lava"}*/}
-					{/*						type={"Presentation"}*/}
-					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
-					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
-					{/*						time={["07:00", "8:00"]}*/}
-					{/*					/>*/}
-					{/*					<Schedule*/}
-					{/*						id={2}*/}
-					{/*						people={"Ana Lava"}*/}
-					{/*						type={"Presentation"}*/}
-					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
-					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
-					{/*						time={["07:00", "8:00"]}*/}
-					{/*					/>*/}
-					{/*					<Schedule*/}
-					{/*						id={3}*/}
-					{/*						people={"Ana Lava"}*/}
-					{/*						type={"Presentation"}*/}
-					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
-					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
-					{/*						time={["07:00", "8:00"]}*/}
-					{/*					/>*/}
-					{/*					<Schedule*/}
-					{/*						id={4}*/}
-					{/*						type={"Break"}*/}
-					{/*						subject={`Breakfast`}*/}
-					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
-					{/*						time={["07:00", "8:00"]}*/}
-					{/*					/>*/}
-					{/*					<Schedule*/}
-					{/*						id={5}*/}
-					{/*						people={"Ana Lava"}*/}
-					{/*						type={"Presentation"}*/}
-					{/*						subject={`What is Graphql and how to implement a scalable GraphQL project with React & Apollo?`}*/}
-					{/*						summary={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem pariatur sed similique expedita ab accusamus ratione consequatur, nihil perferendis maxime voluptatibus ut unde dicta nobis sint sunt tempore neque?`}*/}
-					{/*						time={["07:00", "8:00"]}*/}
-					{/*					/>*/}
-					{/*				</section>*/}
-					{/*			</section>*/}
-					{/*		</section>*/}
-					{/*	</div>*/}
-					{/*</section>*/}
-
+					<section className="section">
+						<div className="container-fluid">
+							<section className="Grid">
+								<aside className="section__outline">
+									<h3 className="heading">Schedules in <br/> Main Hall</h3>
+								</aside>
+								<section className="section__main">
+									<section className="table">
+										<header className="table-row table-head_featured">
+											<div className="wrap-row">
+												AUGUST 29, 2019. TEHRAN, IRAN. 7 Shahrivar 1398.
+											</div>
+										</header>
+										<Schedule
+											id={1}
+											type={"other"}
+											subject={`Registration`}
+											summary={''}
+											time={["08:00", "08:30"]}
+										/>
+										<Schedule
+											id={2}
+											type={"Break"}
+											subject={`Welcome Breakfast`}
+											summary={''}
+											time={["08:30", "09:00"]}
+										/>
+										<Schedule
+											id={3}
+											type={"other"}
+											subject={`Conference Opening`}
+											summary={``}
+											time={["09:00", "09:10"]}
+										/>
+										<Schedule
+											id={4}
+											people={"Sara Hashemi"}
+											type={"Presentation"}
+											subject={`Introduction`}
+											summary={'Conference Started :)'}
+											time={["09:10", "09:30"]}
+										/>
+										<Schedule
+											id={5}
+											people={"Mohammad Hossein Malek"}
+											type={"Presentation"}
+											subject={`PWA in React!`}
+											summary={`FrontEnd Developer at Snapp.ir,he have more than six years of hands-on experience efficiently developing websites and Web-Applications using Modern Javascript frameworks like React and VueJs. he had the opportunity to be a part of many cool and innovative teams and companies. For now, we just want to talk about how we can develop a great PWA. starts with a simple introduction to PWA and how it is and what issues you might have on this journey and etc.`}
+											time={["09:30", "10:05"]}
+										/>
+										<Schedule
+											id={6}
+											people={"Mojtaba Esparipour"}
+											type={"Presentation"}
+											subject={`React 16 Overview`}
+											summary={`An overview on how React works and what features are added to it in version 16.x`}
+											time={["10:05", "10:35"]}
+										/>
+										<Schedule
+											id={7}
+											people={"Amir abbas abdolali"}
+											type={"Presentation"}
+											subject={`Everything You Need To Know About SVG`}
+											summary={`why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it.`}
+											time={["10:35", "11:10"]}
+										/>
+										<Schedule
+											id={8}
+											type={"Presentation"}
+											subject={`Baharsamenh Talking`}
+											summary={`Technical Talking and Team Stack`}
+											time={["11:10", "11:20"]}
+										/>
+										<Schedule
+											id={9}
+											people={"Ehsan Hosseini"}
+											type={"Presentation"}
+											subject={`Micro-Frontend`}
+											summary={`What do you do if you need an enterprise Front-end application? How to develop each part of the application completely in an independent team with their structure, libraries, and framework as a separate application? And how these applications will communicate with each other? These questions will be answered by Micro-Frontend concept.`}
+											time={["11:20", "11:50"]}
+										/>
+										<Schedule
+											id={10}
+											people={"Negar Jamalifard"}
+											type={"Presentation"}
+											subject={`How to deal with CORS error in Webpack?`}
+											summary={`Does CORS error haunts you in every project? Are you tired of asking backend team to handle it? This talk is going to give you all the power to handle this error in development.`}
+											time={["11:50", "12:20"]}
+										/>
+										<Schedule
+											id={11}
+											people={"Samaneh Mohammadi"}
+											type={"Presentation"}
+											subject={`Styled-Component Architecture`}
+											summary={`how to make Dynamic interactive user interface based on components and how to use it for building complex interfaces.`}
+											time={["12:20", "12:50"]}
+										/>
+										<Schedule
+											id={12}
+											type={"Break"}
+											subject={`Lunch Break`}
+											summary={``}
+											time={["12:50", "14:00"]}
+										/>
+										<Schedule
+											id={13}
+											people={"Jeremy Webster"}
+											type={"Presentation"}
+											subject={`How Not to Be Innovative`}
+											summary={`The talk will be about where Innovation in technology comes from, based on my own research and experience, and how your choice of technologies in a project can stop innovation`}
+											time={["14:00", "14:30"]}
+										/>
+										<Schedule
+											id={14}
+											people={"Mohamad Jahani"}
+											type={"Presentation"}
+											subject={"useHooks!"}
+											summary={"Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like \"What?\", \"Why?\", and \"How?\"."}
+											time={["14:30", "15:00"]}
+										/>
+										<Schedule
+											id={15}
+											people={"Tahere Gholami"}
+											type={"Presentation"}
+											subject={`State management with React Context API`}
+											summary={`Tahere has been developing Frontend applications for 6+ years including more than two years on React/Redux.React Context API is a powerful feature, you might consider using it when your React Application grows in size and depth from a component perspective.`}
+											time={["15:00", "15:30"]}
+										/>
+										<Schedule
+											id={16}
+											type={"Presentation"}
+											subject={`Talking Panel`}
+											summary={`Coming Soon ...`}
+											time={["15:30", "16:15"]}
+										/>
+										<Schedule
+											id={17}
+											type={"Break"}
+											subject={`Food & Networking`}
+											summary={``}
+											time={["16:15", "16:45"]}
+										/>
+										<Schedule
+											id={19}
+											people={"Ehsan Mohammadi"}
+											type={"Presentation"}
+											subject={`Why are we using React.js in our project?`}
+											summary={`Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript.`}
+											time={["16:45", "17:15"]}
+										/>
+										<Schedule
+											id={20}
+											people={"Ahmad Karimpour"}
+											type={"Presentation"}
+											subject={`A Cup of React-Native`}
+											summary={`Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList...`}
+											time={["17:15", "17:45"]}
+										/>
+										<Schedule
+											id={21}
+											people={"Hamed Esmaili"}
+											type={"Presentation"}
+											subject={`How Diffing Algorithm Works In React`}
+											summary={`Manipulating the DOM‌ is an intensive operation in the browser world, react uses VDOM concept to do that with its own diffing algorithm to improve performance which we aim to go through it to understand what is under the hood.`}
+											time={["17:45", "18:15"]}
+										/>
+										<Schedule
+											id={22}
+											people={"Pedram Marandi"}
+											type={"Presentation"}
+											subject={`What is GraphQL and how to implement a scalable GraphQL project with React & Apollo?`}
+											summary={`Javascript applications with React, powered by lovely GraphQL, Apollo and Prisma.`}
+											time={["18:15", "18:45"]}
+										/>
+										<Schedule
+											id={23}
+											type={"Presentation"}
+											subject={`Talks section closing and announcements | React Party`}
+											summary={``}
+											time={["18:45", "19:15"]}
+										/>
+									</section>
+								</section>
+							</section>
+						</div>
+					</section>
+					<section className="section">
+						<div className="container">
+							<section className="section__main">
+								<h2 className="tx-gr-pink">Schedules Surprise Hall</h2>
+								<div className="surprise">
+									<div className="surprise__query">
+										<h3>Surprise in Secondary Hall</h3>
+										<p>
+											Special Talking with more details information
+										</p>
+									</div>
+								</div>
+							</section>
+						</div>
+					</section>
 					<section className="section">
 						<div className="container">
 							<section className="section__main">
@@ -422,32 +562,6 @@ export default class Main extends Component {
 							</section>
 						</div>
 					</section>
-					{/*<section className="section">*/}
-					{/*	<div className="container">*/}
-					{/*		<section className="section__main">*/}
-					{/*			<h2 className="tx-gr-pink">Online Job Fair</h2>*/}
-					{/*			<Parallax y={[-10, 10]} tagOuter="div">*/}
-					{/*				<div className="location">*/}
-					{/*					<div className="location__query">*/}
-					{/*						<h3>Looking for a job?</h3>*/}
-					{/*						<h5 className="tx-gr-pink">Online Video Interview</h5>*/}
-					{/*						<p>*/}
-					{/*							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.*/}
-
-					{/*						</p>*/}
-					{/*						<a*/}
-					{/*							href="https://talentcoach.ir/job-fairs/4"*/}
-					{/*							className="btn"*/}
-					{/*							target="_blank"*/}
-					{/*						>*/}
-					{/*							Start a new job!*/}
-					{/*						</a>*/}
-					{/*					</div>*/}
-					{/*				</div>*/}
-					{/*			</Parallax>*/}
-					{/*		</section>*/}
-					{/*	</div>*/}
-					{/*</section>*/}
 					<section className="section">
 						<div className="container-fluid">
 							<section className="Grid">

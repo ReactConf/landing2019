@@ -16,7 +16,7 @@
 
 	padding: var(--gap);
 	&.is-break {
-		background-color: var(--secondary-color);
+		background-color: var(--secondary-color) !important;
 		.subject {
 			color: var(--black-color) !important;
 		}

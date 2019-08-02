@@ -136,6 +136,32 @@
 		}
 	}
 }
+.surprise {
+	position: relative;
+	background-image: url("/static/images/surprise.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: var(--black-color);
+	min-height: 40rem;
+	@media only screen and (min-width: 48rem) {
+		height: 80vh;
+	}
+	&__query {
+		position: absolute;
+		bottom: 0;
+		width: 33.3%;
+		padding: var(--gap);
+		background: var(--background-color);
+		@media only screen and (max-width: 48rem) {
+			position: relative;
+			width: 100%;
+		}
+		h3 {
+			font-weight: 800;
+			line-height: 1.2;
+		}
+	}
+}
 .talk {
 	position: relative;
 	background-image: url("/static/images/talking.jpg");
@@ -329,3 +355,4 @@
 		}
 	}
 }
+

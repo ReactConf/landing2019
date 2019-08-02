@@ -58,7 +58,7 @@
 		"bio": "The talk will be about where Innovation in technology comes from, based on my own research and experience, and how your choice of technologies in a project can stop innovation"
 	}, {
 		"slug": "Amir abbas abdolali",
-		"name": "جرمی وبستر",
+		"name": "امیر عباس",
 		"is_speaker": true,
 		"is_skype": false,
 		"subject": "Everything You Need To Know About SVG",
@@ -369,6 +369,24 @@
 		}]
 	},
 		{
+			"avatar": "/static/images/people/armin.jpg",
+			"slug": "Armin Ebrahimi",
+			"bio": "Markting & Idea Development",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/arm1ne/",
+				"icon": "linkedin"
+			}]
+		},
+		{
+			"avatar": "/static/images/people/ali.jpg",
+			"slug": "Ali Hariri",
+			"bio": "Markting & Idea Development",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/malihariri/",
+				"icon": "linkedin"
+			}]
+		},
+		{
 			"avatar": "/static/images/people/samir.jpg",
 			"slug": "Samir Rad",
 			"bio": "Creative Generalist",
@@ -617,6 +635,11 @@
 			"title": "StartupNet",
 			"logo": "/static/images/partners/startupnet.png",
 			"url": "https://t.me/StartupNet"
+		},
+		{
+			"title": "icheezha",
+			"logo": "/static/images/partners/icheezha.png",
+			"url": "https://icheezha.ir/"
 		},
 		{
 			"title": "giftak",
