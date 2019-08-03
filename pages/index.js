@@ -22,7 +22,7 @@ export default class Main extends Component {
 	}
 	 componentDidMount = async () => {
 		try {
-			const response = await superagent.get('http://reactconf.ir/api/v1/users?size=50');
+			const response = await superagent.get('https://reactconf.ir/api/v1/users?size=50');
 			await this.setState({clients: response.body});
 		} catch (e) {
 
