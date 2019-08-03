@@ -2,25 +2,33 @@ import React, { Component } from "react";
 import Link from "next/link";
 import Grid from "react-css-grid";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
-
+import superagent from 'superagent';
 import Head from "../components/head";
 import Schedule from "../components/schedule";
 import People from "../components/people";
+import Clients from "../components/clients";
 import Countdown from "../components/countdown";
-// import { SmoothScroll } from "../components/utils/utils";
 import data from "./data";
 import "../styles/styles.scss";
-
 const { peoples, juries, team, partners, sponsors } = data;
 
 export default class Main extends Component {
-	// componentDidMount() {
-	// 	const isServer = typeof window === "undefined";
-	// 	if (!isServer) {
-	// 		new SmoothScroll(document, 27, 1);
-	// 	}
-	// }
+	users = [];
+	constructor(props) {
+		super(props);
+		this.state = {
+			clients: []
+		}
+	}
+	 componentDidMount = async () => {
+		try {
+			const response = await superagent.get('http://reactconf.ir/api/v1/users?size=50');
+			await this.setState({clients: response.body});
+		} catch (e) {
 
+		}
+
+	};
 	render() {
 		return (
 			<ParallaxProvider>
@@ -208,42 +216,42 @@ export default class Main extends Component {
 								</h1>
 							</Parallax>
 
-								<p className="description">
-									<a href="https://twitter.com/hashtag/ReactConfIran2019">
-										#ReactConf
-									</a>{" "}
-									is an Iranian web, mobile development &
-									everything about javascript development
-									event.
-								</p>
-								<p className="description">
-									<b>Day:</b> 7 Shahrivar 1398
-									<br/>
-									<b>Time:</b> 08:00 AM Until 08:00 PM
-									<br/>
-									<b>Location:</b> Holy Defense Museum Hall
-								</p>
-									<a className="btn" href="/ticket">
-										<svg
-											width={24}
-											height={24}
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<g
-												stroke="#000"
-												strokeWidth="1.5"
-												fill="none"
-												fillRule="evenodd"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-											>
-												<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
-												<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
-											</g>
-										</svg>
-										Buy ticket
-									</a>
+							<p className="description">
+								<a href="https://twitter.com/hashtag/ReactConfIran2019">
+									#ReactConf
+								</a>{" "}
+								is an Iranian web, mobile development &
+								everything about javascript development
+								event.
+							</p>
+							<p className="description">
+								<b>Day:</b> 7 Shahrivar 1398
+								<br/>
+								<b>Time:</b> 08:00 AM Until 08:00 PM
+								<br/>
+								<b>Location:</b> Holy Defense Museum Hall
+							</p>
+							<a className="btn" href="/ticket">
+								<svg
+									width={24}
+									height={24}
+									viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g
+										stroke="#000"
+										strokeWidth="1.5"
+										fill="none"
+										fillRule="evenodd"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+									>
+										<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
+										<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
+									</g>
+								</svg>
+								Buy ticket
+							</a>
 							<Countdown />
 						</div>
 					</header>
@@ -559,6 +567,22 @@ export default class Main extends Component {
 										</div>
 									</div>
 								</Parallax>
+							</section>
+						</div>
+					</section>
+					<section className="section">
+						<div className="container-fluid">
+							<section className="Grid">
+								<aside className="section__outline">
+									<h3 className="heading">Part of People Who Come.</h3>
+								</aside>
+								<section className="section__main">
+									<Grid width={50} gap={"var(--gap)"}>
+										{this.state.clients.map((p, i) => (
+											<Clients data={p} key={i}/>
+										))}
+									</Grid>
+								</section>
 							</section>
 						</div>
 					</section>

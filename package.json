@@ -19,6 +19,7 @@
 		"react-css-grid": "^2.0.0-0",
 		"react-dom": "^16.8.6",
 		"react-lazyload": "^2.6.2",
-		"react-scroll-parallax": "^2.1.2"
+		"react-scroll-parallax": "^2.1.2",
+		"superagent": "^5.1.0"
 	}
 }
