@@ -562,6 +562,16 @@
 			"url": "https://virgool.io"
 		},
 		{
+			"title": "Quera",
+			"logo": "/static/images/partners/quera.png",
+			"url": "https://quera.ir/"
+		},
+		{
+			"title": "git.ir",
+			"logo": "/static/images/partners/git-logo.png",
+			"url": "https://git.ir/"
+		},
+		{
 			"title": "IranServer",
 			"logo": "/static/images/partners/iranserver.png",
 			"url": "https://www.iranserver.com/"

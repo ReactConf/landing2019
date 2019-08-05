@@ -216,42 +216,45 @@ export default class Main extends Component {
 								</h1>
 							</Parallax>
 
-							<p className="description">
-								<a href="https://twitter.com/hashtag/ReactConfIran2019">
-									#ReactConf
-								</a>{" "}
-								is an Iranian web, mobile development &
-								everything about javascript development
-								event.
-							</p>
-							<p className="description">
-								<b>Day:</b> 7 Shahrivar 1398
-								<br/>
-								<b>Time:</b> 08:00 AM Until 08:00 PM
-								<br/>
-								<b>Location:</b> Holy Defense Museum Hall
-							</p>
-							<a className="btn" href="/ticket">
-								<svg
-									width={24}
-									height={24}
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<g
-										stroke="#000"
-										strokeWidth="1.5"
-										fill="none"
-										fillRule="evenodd"
-										strokeLinecap="round"
-										strokeLinejoin="round"
+							<Parallax y={[-20, 60]} tagOuter="div">
+								<p className="description">
+									<a href="https://twitter.com/hashtag/ReactConfIran2019">
+										#ReactConf
+									</a>{" "}
+									is an Iranian web, mobile development &
+									everything about javascript development
+									event.
+								</p>
+								<p className="description">
+									<b>Day:</b> 7 Shahrivar 1398
+									<br/>
+									<b>Time:</b> 08:00 AM Until 08:00 PM
+									<br/>
+									<b>Location:</b> Holy Defense Museum Hall
+								</p>
+								<a className="btn" href="/ticket">
+									<svg
+										width={24}
+										height={24}
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
 									>
-										<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
-										<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
-									</g>
-								</svg>
-								Buy ticket
-							</a>
+										<g
+											stroke="#000"
+											strokeWidth="1.5"
+											fill="none"
+											fillRule="evenodd"
+											strokeLinecap="round"
+											strokeLinejoin="round"
+										>
+											<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
+											<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
+										</g>
+									</svg>
+									Buy ticket
+								</a>
+							</Parallax>
+
 							<Countdown />
 						</div>
 					</header>
