@@ -597,6 +597,11 @@
 			"url": "https://webbranding.org/"
 		},
 		{
+			"title": "javacup",
+			"logo": "/static/images/partners/javacup.png",
+			"url": "http://javacup.ir"
+		},
+		{
 			"title": "radismedia",
 			"logo": "/static/images/partners/radismedia.png",
 			"url": "https://www.instagram.com/radismedia/"
@@ -645,11 +650,6 @@
 			"title": "StartupNet",
 			"logo": "/static/images/partners/startupnet.png",
 			"url": "https://t.me/StartupNet"
-		},
-		{
-			"title": "icheezha",
-			"logo": "/static/images/partners/icheezha.png",
-			"url": "https://icheezha.ir/"
 		},
 		{
 			"title": "giftak",
