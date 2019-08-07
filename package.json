@@ -10,16 +10,19 @@
 		"@zeit/next-sass": "^1.0.1",
 		"classnames": "^2.2.6",
 		"express": "^4.17.1",
+		"install": "^0.13.0",
 		"next": "^8.1.0",
 		"next-routes": "^1.4.2",
 		"node-sass": "^4.12.0",
 		"normalize.css": "^8.0.1",
+		"npm": "^6.10.3",
 		"rc-texty": "^0.2.0",
 		"react": "^16.8.6",
 		"react-css-grid": "^2.0.0-0",
 		"react-dom": "^16.8.6",
 		"react-lazyload": "^2.6.2",
 		"react-scroll-parallax": "^2.1.2",
+		"react-sticky-el": "^1.0.20",
 		"superagent": "^5.1.0"
 	}
 }

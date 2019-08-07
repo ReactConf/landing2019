@@ -9,9 +9,10 @@
 			max-width: 100%;
 			line-height: calc(var(--baseline) * 1.5);
 			@media only screen and (min-width: 48rem) {
+
 				position: -webkit-sticky;
 				position: sticky;
-				top: var(--baseline);
+				top: 65px;
 				text-align: right;
 			}
 			@media only screen and (max-width: 48rem) {

@@ -567,6 +567,11 @@
 			"url": "https://quera.ir/"
 		},
 		{
+			"title": "Hamava",
+			"logo": "/static/images/partners/hamava.png",
+			"url": "http://hamava.ir/"
+		},
+		{
 			"title": "git.ir",
 			"logo": "/static/images/partners/git-logo.png",
 			"url": "https://git.ir/"
@@ -600,6 +605,11 @@
 			"title": "javacup",
 			"logo": "/static/images/partners/javacup.png",
 			"url": "http://javacup.ir"
+		},
+		{
+			"title": "kntu",
+			"logo": "/static/images/partners/kntu.png",
+			"url": "https://ce.kntu.ac.ir/"
 		},
 		{
 			"title": "radismedia",

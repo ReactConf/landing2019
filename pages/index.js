@@ -8,6 +8,7 @@ import Schedule from "../components/schedule";
 import People from "../components/people";
 import Clients from "../components/clients";
 import Countdown from "../components/countdown";
+import Sticky from 'react-sticky-el';
 import data from "./data";
 import "../styles/styles.scss";
 const { peoples, juries, team, partners, sponsors } = data;
@@ -20,7 +21,9 @@ export default class Main extends Component {
 			clients: []
 		}
 	}
-	 componentDidMount = async () => {
+	componentDidMount = async () => {
+		document.addEventListener("scroll", this.headerOnScroll);
+		document.addEventListener("load", this.headerOnScroll);
 		try {
 			const response = await superagent.get('https://reactconf.ir/api/v1/users?size=50');
 			await this.setState({clients: response.body});
@@ -28,6 +31,21 @@ export default class Main extends Component {
 
 		}
 
+	};
+	headerOnScroll = () => {
+		const distanceY =
+			window.pageYOffset || document.documentElement.scrollTop,
+			shrinkOn = 500,
+			headerEl = document.querySelector(".fixed.btn");
+		if (headerEl !== null && headerEl !== undefined) {
+			if (!headerEl.hasOwnProperty("classList")) {
+				if (distanceY > shrinkOn) {
+					headerEl.classList.add("show");
+				} else {
+					headerEl.classList.remove("show");
+				}
+			}
+		}
 	};
 	render() {
 		return (
@@ -146,6 +164,7 @@ export default class Main extends Component {
 							width: 40rem;
 							max-width: 100%;
 						}
+						
 					`}</style>
 
 					<Head title="React Conf" />
@@ -258,7 +277,27 @@ export default class Main extends Component {
 							<Countdown />
 						</div>
 					</header>
-
+					<a className="fixed btn" href="/ticket">
+						<svg
+							width={24}
+							height={24}
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g
+								stroke="#000"
+								strokeWidth="1.5"
+								fill="none"
+								fillRule="evenodd"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+							>
+								<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
+								<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
+							</g>
+						</svg>
+						Buy ticket
+					</a>
 					<section className="section">
 						<div className="container">
 							<section className="section__main">
@@ -585,10 +624,16 @@ export default class Main extends Component {
 											<Clients data={p} key={i}/>
 										))}
 									</Grid>
+									<section className="section">
+										<a className="btn" href="/promotion" target="_blank">
+											Reactconf Promotion
+										</a>
+									</section>
 								</section>
 							</section>
 						</div>
 					</section>
+
 					<section className="section">
 						<div className="container-fluid">
 							<section className="Grid">
