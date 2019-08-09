@@ -533,6 +533,11 @@
 			"title": "ایده نگاران هست نما",
 			"logo": "/static/images/partners/vip/hastnama.png",
 			"url": "http://hastnama.com"
+		},
+		{
+			"title": "سون لرن",
+			"logo": "/static/images/partners/vip/7learn.png",
+			"url": "https://7learn.com/"
 		}
 	],
 	"sponsors" : [
@@ -580,6 +585,11 @@
 			"title": "IranServer",
 			"logo": "/static/images/partners/iranserver.png",
 			"url": "https://www.iranserver.com/"
+		},
+		{
+			"title": "adobeIran",
+			"logo": "/static/images/partners/adobeiran.png",
+			"url": "http://www.adobeiran.com/"
 		},
 		{
 			"title": "RTL Theme",
