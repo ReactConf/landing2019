@@ -538,6 +538,11 @@
 			"title": "سون لرن",
 			"logo": "/static/images/partners/vip/7learn.png",
 			"url": "https://7learn.com/"
+		},
+		{
+			"title": "arjang",
+			"logo": "/static/images/partners/vip/arjang.png",
+			"url": "https://arjang.ac.ir/"
 		}
 	],
 	"sponsors" : [
@@ -590,6 +595,11 @@
 			"title": "adobeIran",
 			"logo": "/static/images/partners/adobeiran.png",
 			"url": "http://www.adobeiran.com/"
+		},
+		{
+			"title": "parscoders",
+			"logo": "/static/images/partners/parscoders.png",
+			"url": "https://parscoders.com/"
 		},
 		{
 			"title": "RTL Theme",
@@ -695,11 +705,6 @@
 			"title": "aasaam",
 			"logo": "/static/images/partners/aasaam.png",
 			"url": "https://aasaam.com/"
-		},
-		{
-			"title": "arjang",
-			"logo": "/static/images/partners/arjang.png",
-			"url": "https://arjang.ac.ir/"
 		},
 		{
 			"title": "ciwiran",

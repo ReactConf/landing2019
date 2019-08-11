@@ -363,11 +363,9 @@ export default class Main extends Component {
 						<section className="section__main">
 							<div className="ticket">
 								<div className="ticket--card">
-									<h2 className="offer small">
-										280,000 <small>Tomans</small>
-									</h2>
+								
 									<h2>
-										200,000 <small>Tomans</small>
+										280,000 <small>Tomans</small>
 									</h2>
 									<p>
 										One full days of knowledge sharing and
@@ -659,7 +657,7 @@ export default class Main extends Component {
 						<div className="container">
 							<section className="section__main">
 								<h2 className="tx-gr-purple">Partners</h2>
-								<Grid width={120} gap={"var(--gap)"}>
+								<Grid width={200} gap={"var(--gap)"}>
 									{partners.map((p, i) => (
 										<figure className="sponsors--item" key={i}>
 											<a
@@ -816,7 +814,7 @@ export default class Main extends Component {
 								<img src="/static/images/partners/azinro.png" />
 							</a>
 							<p>
-								Organized with {"<love/>"} by{" "}
+								Organized with {"<Love/>"} by{" "}
 								<a href="http://hastnama.com" target="_blank">
 									Hastnama Creative Solutions
 								</a>{" "}
