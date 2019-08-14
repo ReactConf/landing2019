@@ -498,10 +498,10 @@ export default class Main extends Component {
 										/>
 										<Schedule
 											id={14}
-											people={"Mohamad Jahani"}
+											people={"Milad Heydari"}
 											type={"Presentation"}
-											subject={"useHooks!"}
-											summary={"Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like \"What?\", \"Why?\", and \"How?\"."}
+											subject={"Hiring issues in Front-End Community"}
+											summary={"Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."}
 											time={["14:30", "15:00"]}
 										/>
 										<Schedule
@@ -536,10 +536,10 @@ export default class Main extends Component {
 										/>
 										<Schedule
 											id={20}
-											people={"Ahmad Karimpour"}
+											people={"Sajjad Beiraghdar"}
 											type={"Presentation"}
-											subject={`A Cup of React-Native`}
-											summary={`Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList...`}
+											subject={`React Native Architecture`}
+											summary={`How React Native works, What issues it has and how they will be addressed in the React Native new architecture.`}
 											time={["17:15", "17:45"]}
 										/>
 										<Schedule
@@ -573,15 +573,41 @@ export default class Main extends Component {
 					<section className="section">
 						<div className="container">
 							<section className="section__main">
-								<h2 className="tx-gr-pink">Schedules Surprise Hall</h2>
+								<h2 className="tx-gr-pink">Schedules Workshop Hall</h2>
 								<div className="surprise">
 									<div className="surprise__query">
-										<h3>Surprise in Secondary Hall</h3>
+										<h3>Secondary Hall</h3>
 										<p>
 											Special Talking with more details information
 										</p>
 									</div>
 								</div>
+							</section>
+							<section className="section__main">
+								<Schedule
+									id={20}
+									people={"Mohammad Hasan Gilak"}
+									type={"Presentation"}
+									subject={`React Server-Side Rendering`}
+									summary={`Render on the server rather than in the browser. talk about Cons of Rendering React on the Server, Architecture, Performance and challenges.`}
+									time={["14:00", "15:30"]}
+								/>
+								<Schedule
+									id={20}
+									people={"Mohamad Jahani"}
+									type={"Presentation"}
+									subject={`useHooks!`}
+									summary={"Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like \"What are Hooks?\", \"Why we should use them?\", and \"How to use them?\""}
+									time={["16:15", "17:15"]}
+								/>
+								<Schedule
+									id={20}
+									people={"Ahmad Karimpour"}
+									type={"Presentation"}
+									subject={`A Cup of React-Native`}
+									summary={`Understanding the communication between JS & Native, Error Tracking, Codepush, VirtualizedList...`}
+									time={["17:15", "18:15"]}
+								/>
 							</section>
 						</div>
 					</section>
