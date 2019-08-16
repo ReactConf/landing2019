@@ -590,7 +590,7 @@ export default class Main extends Component {
 									people={"Ana Lava"}
 									type={"Presentation"}
 									subject={`An Introduction to Real-Time programming in Javascript`}
-									summary={`A 29 year-old backend developer graduated from Electrical and Computer Engineering faculty of Tehran University with master’s degree, having +4 years of experience in backend development utilizing various technologies and concepts such as Nodejs, mongodb, Elasticsearch, Microservices Architecture, Docker and etc.`}
+									summary={`What are websockets, when and why do we use them? How Do we use them in javascript? What are the challenges? This talk is going to answer these questions and help you start real-time programming in javascript.`}
 									time={["11:20", "12:50"]}
 								/>
 								<Schedule
