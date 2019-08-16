@@ -81,6 +81,7 @@ export default class Main extends Component {
 							line-height: 1.75rem;
 							border-radius: var(--radius);
 							transition: 0.1s ease-in;
+							margin-bottom: 10px;
 						}
 						.btn:hover {
 							background-color: var(--primary-color);
@@ -586,6 +587,14 @@ export default class Main extends Component {
 							<section className="section__main">
 								<Schedule
 									id={20}
+									people={"Ana Lava"}
+									type={"Presentation"}
+									subject={`An Introduction to Real-Time programming in Javascript`}
+									summary={`A 29 year-old backend developer graduated from Electrical and Computer Engineering faculty of Tehran University with master’s degree, having +4 years of experience in backend development utilizing various technologies and concepts such as Nodejs, mongodb, Elasticsearch, Microservices Architecture, Docker and etc.`}
+									time={["11:20", "12:50"]}
+								/>
+								<Schedule
+									id={20}
 									people={"Mohammad Hasan Gilak"}
 									type={"Presentation"}
 									subject={`React Server-Side Rendering`}
@@ -629,6 +638,13 @@ export default class Main extends Component {
 												target="_blank"
 											>
 												Show on Google Map
+											</a>
+											<a
+												href="https://www.waze.com/ul?ll=35.75330390%2C51.42552140&navigate=yes"
+												className="btn"
+												target="_blank"
+											>
+												Waze Driving
 											</a>
 										</div>
 									</div>
