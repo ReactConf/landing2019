@@ -590,7 +590,7 @@ export default class Main extends Component {
 									people={"Ana Lava"}
 									type={"Presentation"}
 									subject={`An Introduction to Real-Time programming in Javascript`}
-									summary={`What are websockets, when and why do we use them? How Do we use them in javascript? What are the challenges? This talk is going to answer these questions and help you start real-time programming in javascript.`}
+									summary={`What are WebSockets, when and why do we use them? How Do we use them in javascript? What are the challenges? This talk is going to answer these questions and help you start real-time programming in javascript.`}
 									time={["11:20", "12:50"]}
 								/>
 								<Schedule
