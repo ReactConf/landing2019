@@ -493,6 +493,16 @@
 			]
 		},
 		{
+			"avatar": "/static/images/people/paria.jpg",
+			"slug": "Paria Sabet",
+			"bio": "Creative Generalist",
+			"socials": [{
+				"url": "https://instagram.com/pariasabet13?igshid=1jea83llmfdze",
+				"icon": "instagram"
+			}
+			]
+		},
+		{
 			"avatar": "/static/images/people/mehryar.jpg",
 			"slug": "Mehryar Sanandaji",
 			"bio": "Creative UI/UX designer",
@@ -580,6 +590,11 @@
 			"title": "Hamava",
 			"logo": "/static/images/partners/hamava.png",
 			"url": "http://hamava.ir/"
+		},
+		{
+			"title": "paradisehub",
+			"logo": "/static/images/partners/paradisehub.png",
+			"url": "http://paradisehub.ir/"
 		},
 		{
 			"title": "git.ir",
