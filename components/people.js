@@ -16,14 +16,11 @@ export default class People extends Component {
 		return (
 			<figure className={cx("people", className)} key={name}>
 				<LazyLoad height={300} offset={500}>
-					<Parallax y={y} tagOuter="div">
 						<div className="people__avatar">
 							<img src={avatar} alt={name} />
 						</div>
-					</Parallax>
 				</LazyLoad>
 
-				<Parallax y={[-25, 10]} tagOuter="div">
 					<figcaption>
 						<h3 className="people__name">{name}</h3>
 						<p className="people__subject">{subject}</p>
@@ -126,7 +123,6 @@ export default class People extends Component {
 								))}
 						</div>
 					</figcaption>
-				</Parallax>
 			</figure>
 		);
 	}

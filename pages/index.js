@@ -252,7 +252,7 @@ export default class Main extends Component {
 									<br/>
 									<b>Location:</b> Holy Defense Museum Hall
 								</p>
-								<a className="btn" href="/ticket">
+								<a className="btn">
 									<svg
 										width={24}
 										height={24}
@@ -271,34 +271,34 @@ export default class Main extends Component {
 											<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
 										</g>
 									</svg>
-									Buy ticket
+									Sold Out!
 								</a>
 							</Parallax>
 
 							<Countdown />
 						</div>
 					</header>
-					<a className="fixed btn" href="/ticket">
-						<svg
-							width={24}
-							height={24}
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<g
-								stroke="#000"
-								strokeWidth="1.5"
-								fill="none"
-								fillRule="evenodd"
-								strokeLinecap="round"
-								strokeLinejoin="round"
-							>
-								<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />
-								<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />
-							</g>
-						</svg>
-						Buy ticket
-					</a>
+					{/*<a className="fixed btn" href="/ticket">*/}
+					{/*	<svg*/}
+					{/*		width={24}*/}
+					{/*		height={24}*/}
+					{/*		viewBox="0 0 24 24"*/}
+					{/*		xmlns="http://www.w3.org/2000/svg"*/}
+					{/*	>*/}
+					{/*		<g*/}
+					{/*			stroke="#000"*/}
+					{/*			strokeWidth="1.5"*/}
+					{/*			fill="none"*/}
+					{/*			fillRule="evenodd"*/}
+					{/*			strokeLinecap="round"*/}
+					{/*			strokeLinejoin="round"*/}
+					{/*		>*/}
+					{/*			<path d="M8.993 23.25H2.451a1.5 1.5 0 0 1-1.487-1.694l1.858-14.25A1.5 1.5 0 0 1 4.31 6h1.116a1.5 1.5 0 0 1 1.487 1.306l2.08 15.944zM14.243 6h5.433a1.5 1.5 0 0 1 1.487 1.306l1.859 14.25a1.5 1.5 0 0 1-1.488 1.694H8.993M5.426 6h6.567" />*/}
+					{/*			<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />*/}
+					{/*		</g>*/}
+					{/*	</svg>*/}
+					{/*	Buy ticket*/}
+					{/*</a>*/}
 					<section className="section">
 						<div className="container">
 							<section className="section__main">
@@ -374,11 +374,11 @@ export default class Main extends Component {
 										React.
 									</p>
 									<a
-										href="/ticket"
+
 										className="btn"
 										target="_blank"
 									>
-										Preorder
+										Sold Out!
 									</a>
 								</div>
 							</div>
@@ -417,7 +417,7 @@ export default class Main extends Component {
 											type={"other"}
 											subject={`Conference Opening`}
 											summary={``}
-											time={["09:00", "09:10"]}
+											time={["09:00", "09:05"]}
 										/>
 										<Schedule
 											id={4}
@@ -425,15 +425,15 @@ export default class Main extends Component {
 											type={"Presentation"}
 											subject={`Introduction`}
 											summary={'Conference Started :)'}
-											time={["09:10", "09:30"]}
+											time={["09:05", "09:20"]}
 										/>
 										<Schedule
-											id={5}
-											people={"Mohammad Hossein Malek"}
+											id={19}
+											people={"Ehsan Mohammadi"}
 											type={"Presentation"}
-											subject={`PWA in React!`}
-											summary={`FrontEnd Developer at Snapp.ir,he have more than six years of hands-on experience efficiently developing websites and Web-Applications using Modern Javascript frameworks like React and VueJs. he had the opportunity to be a part of many cool and innovative teams and companies. For now, we just want to talk about how we can develop a great PWA. starts with a simple introduction to PWA and how it is and what issues you might have on this journey and etc.`}
-											time={["09:30", "10:05"]}
+											subject={`Why are we using React.js in our project?`}
+											summary={`Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript.`}
+											time={["09:20", "09:50"]}
 										/>
 										<Schedule
 											id={6}
@@ -441,22 +441,7 @@ export default class Main extends Component {
 											type={"Presentation"}
 											subject={`React 16 Overview`}
 											summary={`An overview on how React works and what features are added to it in version 16.x`}
-											time={["10:05", "10:35"]}
-										/>
-										<Schedule
-											id={7}
-											people={"Amir abbas abdolali"}
-											type={"Presentation"}
-											subject={`Everything You Need To Know About SVG`}
-											summary={`why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it.`}
-											time={["10:35", "11:10"]}
-										/>
-										<Schedule
-											id={8}
-											type={"Presentation"}
-											subject={`Baharsamenh Talking`}
-											summary={`Technical Talking and Team Stack`}
-											time={["11:10", "11:20"]}
+											time={["09:50", "10:20"]}
 										/>
 										<Schedule
 											id={9}
@@ -464,7 +449,29 @@ export default class Main extends Component {
 											type={"Presentation"}
 											subject={`Micro-Frontend`}
 											summary={`What do you do if you need an enterprise Front-end application? How to develop each part of the application completely in an independent team with their structure, libraries, and framework as a separate application? And how these applications will communicate with each other? These questions will be answered by Micro-Frontend concept.`}
-											time={["11:20", "11:50"]}
+											time={["10:20", "10:50"]}
+										/>
+										<Schedule
+											id={2}
+											type={"Break"}
+											subject={`Break`}
+											summary={''}
+											time={["10:50", "11:10"]}
+										/>
+										<Schedule
+											id={7}
+											people={"Amir abbas abdolali"}
+											type={"Presentation"}
+											subject={`Everything You Need To Know About SVG`}
+											summary={`why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it.`}
+											time={["11:10", "11:40"]}
+										/>
+										<Schedule
+											id={8}
+											type={"Presentation"}
+											subject={`Vira Talking`}
+											summary={`Technical Talking and Team Stack`}
+											time={["11:40", "11:50"]}
 										/>
 										<Schedule
 											id={10}
@@ -497,28 +504,28 @@ export default class Main extends Component {
 											summary={`The talk will be about where Innovation in technology comes from, based on my own research and experience, and how your choice of technologies in a project can stop innovation`}
 											time={["14:00", "14:30"]}
 										/>
-										<Schedule
-											id={14}
-											people={"Milad Heydari"}
-											type={"Presentation"}
-											subject={"Hiring issues in Front-End Community"}
-											summary={"Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."}
-											time={["14:30", "15:00"]}
-										/>
+
 										<Schedule
 											id={15}
 											people={"Tahere Gholami"}
 											type={"Presentation"}
 											subject={`State management with React Context API`}
 											summary={`Tahere has been developing Frontend applications for 6+ years including more than two years on React/Redux.React Context API is a powerful feature, you might consider using it when your React Application grows in size and depth from a component perspective.`}
-											time={["15:00", "15:30"]}
+											time={["14:30", "15:00"]}
+										/>
+										<Schedule
+											id={8}
+											type={"Presentation"}
+											subject={`Baharsamaneh Talking`}
+											summary={`Technical Talking and Team Stack`}
+											time={["15:00", "15:10"]}
 										/>
 										<Schedule
 											id={16}
 											type={"Presentation"}
 											subject={`Talking Panel`}
 											summary={`Coming Soon ...`}
-											time={["15:30", "16:15"]}
+											time={["15:10", "16:15"]}
 										/>
 										<Schedule
 											id={17}
@@ -528,11 +535,11 @@ export default class Main extends Component {
 											time={["16:15", "16:45"]}
 										/>
 										<Schedule
-											id={19}
-											people={"Ehsan Mohammadi"}
+											id={5}
+											people={"Mohammad Hossein Malek"}
 											type={"Presentation"}
-											subject={`Why are we using React.js in our project?`}
-											summary={`Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript.`}
+											subject={`PWA in React!`}
+											summary={`FrontEnd Developer at Snapp.ir,he have more than six years of hands-on experience efficiently developing websites and Web-Applications using Modern Javascript frameworks like React and VueJs. he had the opportunity to be a part of many cool and innovative teams and companies. For now, we just want to talk about how we can develop a great PWA. starts with a simple introduction to PWA and how it is and what issues you might have on this journey and etc.`}
 											time={["16:45", "17:15"]}
 										/>
 										<Schedule
@@ -591,7 +598,7 @@ export default class Main extends Component {
 									type={"Presentation"}
 									subject={`An Introduction to Real-Time programming in Javascript`}
 									summary={`What are WebSockets, when and why do we use them? How Do we use them in javascript? What are the challenges? This talk is going to answer these questions and help you start real-time programming in javascript.`}
-									time={["11:20", "12:50"]}
+									time={["09:50", "10:50"]}
 								/>
 								<Schedule
 									id={20}
@@ -599,7 +606,15 @@ export default class Main extends Component {
 									type={"Presentation"}
 									subject={`React Server-Side Rendering`}
 									summary={`Render on the server rather than in the browser. talk about Cons of Rendering React on the Server, Architecture, Performance and challenges.`}
-									time={["14:00", "15:30"]}
+									time={["11:50", "12:50"]}
+								/>
+								<Schedule
+									id={14}
+									people={"Milad Heydari"}
+									type={"Presentation"}
+									subject={"Hiring issues in Front-End Community"}
+									summary={"Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."}
+									time={["14:00", "15:00"]}
 								/>
 								<Schedule
 									id={20}

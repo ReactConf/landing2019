@@ -387,19 +387,16 @@
 			}]
 		},
 		{
-			"avatar": "/static/images/people/samir.jpg",
-			"slug": "Samir Rad",
+			"avatar": "/static/images/people/paria.jpg",
+			"slug": "Paria Sabet",
 			"bio": "Creative Generalist",
 			"socials": [{
-				"url": "http://www.linkedin.com/in/radismedia",
-				"icon": "linkedin"
-			},
-				{
-					"url": "http://www.instagram.com/radismedia",
-					"icon": "instagram"
-				}
+				"url": "https://instagram.com/pariasabet13?igshid=1jea83llmfdze",
+				"icon": "instagram"
+			}
 			]
 		},
+
 		{
 			"avatar": "/static/images/people/arash.jpg",
 			"slug": "Arash Shams",
@@ -492,16 +489,7 @@
 			}
 			]
 		},
-		{
-			"avatar": "/static/images/people/paria.jpg",
-			"slug": "Paria Sabet",
-			"bio": "Creative Generalist",
-			"socials": [{
-				"url": "https://instagram.com/pariasabet13?igshid=1jea83llmfdze",
-				"icon": "instagram"
-			}
-			]
-		},
+
 		{
 			"avatar": "/static/images/people/mehryar.jpg",
 			"slug": "Mehryar Sanandaji",
@@ -521,6 +509,20 @@
 				"icon": "linkedin"
 			}
 			]
+		},
+		{
+			"avatar": "/static/images/people/samir.jpg",
+			"slug": "Samir Rad",
+			"bio": "Creative Generalist",
+			"socials": [{
+				"url": "http://www.linkedin.com/in/radismedia",
+				"icon": "linkedin"
+			},
+				{
+					"url": "http://www.instagram.com/radismedia",
+					"icon": "instagram"
+				}
+			]
 		}
 	],
 	"partners" : [
@@ -538,6 +540,11 @@
 			"title": "شرکت بهارسامانه شرق",
 			"logo": "/static/images/partners/vip/baharsamaneh.png",
 			"url": "https://baharnet.ir/"
+		},
+		{
+			"title": "اسنپ مارکت",
+			"logo": "/static/images/partners/vip/snappmarket.png",
+			"url": "https://snapp.market/"
 		},
 		{
 			"title": "ایده نگاران هست نما",
