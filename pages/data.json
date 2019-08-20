@@ -412,6 +412,15 @@
 			]
 		},
 		{
+			"avatar": "/static/images/people/mehri.jpg",
+			"slug": "Mehri Daie",
+			"bio": "React Conf planning researcher",
+			"socials": [{
+				"url": "https://www.linkedin.com/in/mehridaie/",
+				"icon": "linkedin"
+			}]
+		},
+		{
 			"avatar": "/static/images/people/siamak.jpg",
 			"slug": "Siamak Mokhtari",
 			"bio": "Reactconf Organizer",
@@ -489,7 +498,6 @@
 			}
 			]
 		},
-
 		{
 			"avatar": "/static/images/people/mehryar.jpg",
 			"slug": "Mehryar Sanandaji",
