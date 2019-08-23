@@ -8,7 +8,6 @@ import Schedule from "../components/schedule";
 import People from "../components/people";
 import Clients from "../components/clients";
 import Countdown from "../components/countdown";
-import Sticky from 'react-sticky-el';
 import data from "./data";
 import "../styles/styles.scss";
 const { peoples, juries, team, partners, sponsors } = data;
@@ -252,7 +251,7 @@ export default class Main extends Component {
 									<br/>
 									<b>Location:</b> Holy Defense Museum Hall
 								</p>
-								<a className="btn">
+								<a  className="btn">
 									<svg
 										width={24}
 										height={24}
@@ -297,7 +296,7 @@ export default class Main extends Component {
 					{/*			<path d="M17.993 10.5V3.75a3 3 0 1 0-6 0v6.75M9.578 1.253a3.002 3.002 0 0 0-1.335 2.5V6" />*/}
 					{/*		</g>*/}
 					{/*	</svg>*/}
-					{/*	Buy ticket*/}
+					{/*	Sold Out*/}
 					{/*</a>*/}
 					<section className="section">
 						<div className="container">
@@ -357,34 +356,6 @@ export default class Main extends Component {
 							</section>
 						</div>
 					</section>
-					<section className="section">
-						<div className="container">
-							<h2 className="tx-gr-blue">Ticket</h2>
-						</div>
-						<section className="section__main">
-							<div className="ticket">
-								<div className="ticket--card">
-								
-									<h2>
-										280,000 <small>Tomans</small>
-									</h2>
-									<p>
-										One full days of knowledge sharing and
-										community with people who Code and LOVE
-										React.
-									</p>
-									<a
-
-										className="btn"
-										target="_blank"
-									>
-										Sold Out!
-									</a>
-								</div>
-							</div>
-						</section>
-					</section>
-
 					<section className="section">
 						<div className="container-fluid">
 							<section className="Grid">
