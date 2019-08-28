@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Link from "next/link";
 import Grid from "react-css-grid";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
-import superagent from 'superagent';
+import superagent from "superagent";
 import Head from "../components/head";
 import Schedule from "../components/schedule";
 import People from "../components/people";
@@ -18,22 +18,21 @@ export default class Main extends Component {
 		super(props);
 		this.state = {
 			clients: []
-		}
+		};
 	}
 	componentDidMount = async () => {
 		document.addEventListener("scroll", this.headerOnScroll);
 		document.addEventListener("load", this.headerOnScroll);
 		try {
-			const response = await superagent.get('https://reactconf.ir/api/v1/users?size=50');
-			await this.setState({clients: response.body});
-		} catch (e) {
-
-		}
-
+			const response = await superagent.get(
+				"https://reactconf.ir/api/v1/users?size=50"
+			);
+			await this.setState({ clients: response.body });
+		} catch (e) {}
 	};
 	headerOnScroll = () => {
 		const distanceY =
-			window.pageYOffset || document.documentElement.scrollTop,
+				window.pageYOffset || document.documentElement.scrollTop,
 			shrinkOn = 500,
 			headerEl = document.querySelector(".fixed.btn");
 		if (headerEl !== null && headerEl !== undefined) {
@@ -164,7 +163,6 @@ export default class Main extends Component {
 							width: 40rem;
 							max-width: 100%;
 						}
-						
 					`}</style>
 
 					<Head title="React Conf" />
@@ -173,7 +171,10 @@ export default class Main extends Component {
 						<div className="container-fluid">
 							<div className="brand">
 								<Link href="/">
-									<a href="/" title="همایش ری اکت | reactconf">
+									<a
+										href="/"
+										title="همایش ری اکت | reactconf"
+									>
 										<svg
 											width={150}
 											height={48}
@@ -235,7 +236,7 @@ export default class Main extends Component {
 								</h1>
 							</Parallax>
 
-							<Parallax y={[-20, 60]} tagOuter="div">
+							<Parallax y={[-20, 50]} tagOuter="div">
 								<p className="description">
 									<a href="https://twitter.com/hashtag/ReactConfIran2019">
 										#ReactConf
@@ -246,12 +247,12 @@ export default class Main extends Component {
 								</p>
 								<p className="description">
 									<b>Day:</b> 7 Shahrivar 1398
-									<br/>
+									<br />
 									<b>Time:</b> 08:00 AM Until 08:00 PM
-									<br/>
+									<br />
 									<b>Location:</b> Holy Defense Museum Hall
 								</p>
-								<a  className="btn">
+								<a className="btn">
 									<svg
 										width={24}
 										height={24}
@@ -301,6 +302,26 @@ export default class Main extends Component {
 					<section className="section">
 						<div className="container">
 							<section className="section__main">
+								<h2 className="tx-gr-pink">
+									<i className="pulse"></i>
+									LIVE
+								</h2>
+								<p>
+									ReactConf Live stream 7 Shahrivar 1398,
+									08:00 from{" "}
+									<a href="https://lahzenegar.com/play/pONDb">
+										Lahzenegar
+									</a>
+									.
+								</p>
+								<div className="fr"></div>
+							</section>
+						</div>
+					</section>
+
+					<section className="section">
+						<div className="container">
+							<section className="section__main">
 								<h2 className="tx-gr-orange">Presenter</h2>
 								<Grid width={320} gap={"var(--gap)"}>
 									<People
@@ -343,13 +364,11 @@ export default class Main extends Component {
 						<div className="container">
 							<section className="section__main">
 								<h2 className="tx-gr-pink">Special Talk</h2>
-								<Parallax y={[-10, 10]} tagOuter="div">
+								<Parallax y={[-10, 2]} tagOuter="div">
 									<div className="talk">
 										<div className="talk__query">
 											<h3>Technical Talk.</h3>
-											<p>
-												Talking about JS Projects.
-											</p>
+											<p>Talking about JS Projects.</p>
 										</div>
 									</div>
 								</Parallax>
@@ -360,27 +379,30 @@ export default class Main extends Component {
 						<div className="container-fluid">
 							<section className="Grid">
 								<aside className="section__outline">
-									<h3 className="heading">Schedules in <br/> Main Hall</h3>
+									<h3 className="heading">
+										Schedules in <br /> Main Hall
+									</h3>
 								</aside>
 								<section className="section__main">
 									<section className="table">
 										<header className="table-row table-head_featured">
 											<div className="wrap-row">
-												AUGUST 29, 2019. TEHRAN, IRAN. 7 Shahrivar 1398.
+												AUGUST 29, 2019. TEHRAN, IRAN. 7
+												Shahrivar 1398.
 											</div>
 										</header>
 										<Schedule
 											id={1}
 											type={"other"}
 											subject={`Registration`}
-											summary={''}
+											summary={""}
 											time={["08:00", "08:30"]}
 										/>
 										<Schedule
 											id={2}
 											type={"Break"}
 											subject={`Welcome Breakfast`}
-											summary={''}
+											summary={""}
 											time={["08:30", "09:00"]}
 										/>
 										<Schedule
@@ -395,7 +417,7 @@ export default class Main extends Component {
 											people={"Sara Hashemi"}
 											type={"Presentation"}
 											subject={`Introduction`}
-											summary={'Conference Started :)'}
+											summary={"Conference Started :)"}
 											time={["09:05", "09:20"]}
 										/>
 										<Schedule
@@ -426,7 +448,7 @@ export default class Main extends Component {
 											id={2}
 											type={"Break"}
 											subject={`Break`}
-											summary={''}
+											summary={""}
 											time={["10:50", "11:10"]}
 										/>
 										<Schedule
@@ -552,12 +574,15 @@ export default class Main extends Component {
 					<section className="section">
 						<div className="container">
 							<section className="section__main">
-								<h2 className="tx-gr-pink">Schedules Workshop Hall</h2>
+								<h2 className="tx-gr-pink">
+									Schedules Workshop Hall
+								</h2>
 								<div className="surprise">
 									<div className="surprise__query">
 										<h3>Secondary Hall</h3>
 										<p>
-											Special Talking with more details information
+											Special Talking with more details
+											information
 										</p>
 									</div>
 								</div>
@@ -583,8 +608,12 @@ export default class Main extends Component {
 									id={14}
 									people={"Milad Heydari"}
 									type={"Presentation"}
-									subject={"Hiring issues in Front-End Community"}
-									summary={"Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."}
+									subject={
+										"Hiring issues in Front-End Community"
+									}
+									summary={
+										"Developers looking for good companies and companies looking for good developers. We have issues regarding this matter, milad wants to go deep and talk about encounter between knowledge and companies."
+									}
 									time={["14:00", "15:00"]}
 								/>
 								<Schedule
@@ -592,7 +621,9 @@ export default class Main extends Component {
 									people={"Mohamad Jahani"}
 									type={"Presentation"}
 									subject={`useHooks!`}
-									summary={"Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like \"What are Hooks?\", \"Why we should use them?\", and \"How to use them?\""}
+									summary={
+										'Hooks are the new/hot feature of React 16.8. The talk is going to cover everything you need to know about Hooks and provide some answers to the questions like "What are Hooks?", "Why we should use them?", and "How to use them?"'
+									}
 									time={["16:15", "17:15"]}
 								/>
 								<Schedule
@@ -642,16 +673,22 @@ export default class Main extends Component {
 						<div className="container-fluid">
 							<section className="Grid">
 								<aside className="section__outline">
-									<h3 className="heading">Part of People Who Come.</h3>
+									<h3 className="heading">
+										Part of People Who Come.
+									</h3>
 								</aside>
 								<section className="section__main">
 									<Grid width={50} gap={"var(--gap)"}>
 										{this.state.clients.map((p, i) => (
-											<Clients data={p} key={i}/>
+											<Clients data={p} key={i} />
 										))}
 									</Grid>
 									<section className="section">
-										<a className="btn" href="/promotion" target="_blank">
+										<a
+											className="btn"
+											href="/promotion"
+											target="_blank"
+										>
 											Reactconf Promotion
 										</a>
 									</section>
@@ -687,11 +724,11 @@ export default class Main extends Component {
 								<h2 className="tx-gr-purple">Partners</h2>
 								<Grid width={200} gap={"var(--gap)"}>
 									{partners.map((p, i) => (
-										<figure className="sponsors--item" key={i}>
-											<a
-												href={p.url}
-												target="_blank"
-											>
+										<figure
+											className="sponsors--item"
+											key={i}
+										>
+											<a href={p.url} target="_blank">
 												<img
 													src={`${p.logo}`}
 													alt={p.title}
@@ -707,14 +744,16 @@ export default class Main extends Component {
 					<section className="section">
 						<div className="container">
 							<section className="section__main">
-								<h2 className="tx-gr-purple">Partners & Friends</h2>
+								<h2 className="tx-gr-purple">
+									Partners & Friends
+								</h2>
 								<Grid width={120} gap={"var(--gap)"}>
 									{sponsors.map((p, i) => (
-										<figure className="sponsors--item" key={i}>
-											<a
-												href={p.url}
-												target="_blank"
-											>
+										<figure
+											className="sponsors--item"
+											key={i}
+										>
+											<a href={p.url} target="_blank">
 												<img
 													src={`${p.logo}`}
 													alt={p.title}
