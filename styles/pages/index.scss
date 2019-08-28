@@ -33,6 +33,11 @@
 	@media screen and (min-width: 48rem) {
 		margin: 0 calc(var(--gap) * -4);
 	}
+		iframe {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
 }
 
 // .pulse {

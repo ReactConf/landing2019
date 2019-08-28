@@ -163,6 +163,7 @@ export default class Main extends Component {
 							width: 40rem;
 							max-width: 100%;
 						}
+					
 					`}</style>
 
 					<Head title="React Conf" />
@@ -314,7 +315,11 @@ export default class Main extends Component {
 									</a>
 									.
 								</p>
-								<div className="fr"></div>
+								<div className="fr">
+										<iframe
+												frameBorder="0" src="//lahzenegar.com/iframe/pONDb"
+												allowFullScreen></iframe>
+								</div>
 							</section>
 						</div>
 					</section>
