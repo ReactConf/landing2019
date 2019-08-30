@@ -15,11 +15,11 @@ export default class Countdown extends PureComponent {
 	};
 
 	componentDidMount() {
-		this.countDownTimer();
+		// this.countDownTimer();
 	}
 
 	componentWillUnmount() {
-		clearInterval(this.timeinterval);
+		// clearInterval(this.timeinterval);
 	}
 
 	countDownTimer() {
@@ -79,6 +79,11 @@ export default class Countdown extends PureComponent {
 							letter-spacing: -0.02em;
 							z-index: -1;
 						}
+						.month {
+							font-size: 0.75em;
+							position: relative;
+							top: 20px;
+						}
 						.counter {
 							display: flex;
 							font-weight: 500;
@@ -137,22 +142,13 @@ export default class Countdown extends PureComponent {
 					`}</style>
 					<section className="composition">
 						<Parallax y={[-100, 60]} tagOuter="div">
-							<div className="days">{days}</div>
+							<div className="days">29</div>
+							{/* <div className="days">{days}</div> */}
 						</Parallax>
 						<Parallax y={[-20, 60]} tagOuter="div">
-							<div className="counter">Days</div>
+							<div className="counter month">August</div>
+							{/* <div className="counter">Days</div> */}
 						</Parallax>
-						{/* <div className="counter">
-							<div className="hours">
-								<div className="value">{hours}</div>
-							</div>
-							<div className="minutes">
-								<div className="value">{minutes}</div>
-							</div>
-							<div className="seconds">
-								<div className="value">{seconds}</div>
-							</div>
-						</div> */}
 					</section>
 				</React.Fragment>
 			);

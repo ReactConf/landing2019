@@ -163,7 +163,15 @@ export default class Main extends Component {
 							width: 40rem;
 							max-width: 100%;
 						}
-					
+						.description span {
+							display: inline-flex;
+							margin-right: 1em;
+						}
+						.description span b {
+							display: inline-block;
+							opacity: 0.5;
+							margin-right: 0.325em;
+						}
 					`}</style>
 
 					<Head title="React Conf" />
@@ -247,11 +255,9 @@ export default class Main extends Component {
 									event.
 								</p>
 								<p className="description">
-									<b>Day:</b> 7 Shahrivar 1398
-									<br />
-									<b>Time:</b> 08:00 AM Until 08:00 PM
-									<br />
-									<b>Location:</b> Holy Defense Museum Hall
+									<span>📅 7 Shahrivar 1398</span>
+									<span>⏰ 08:00 AM Until 08:00 PM</span>
+									<span>📍 Holy Defense Museum Hall</span>
 								</p>
 								<a className="btn">
 									<svg
@@ -316,9 +322,11 @@ export default class Main extends Component {
 									.
 								</p>
 								<div className="fr">
-										<iframe
-												frameBorder="0" src="//lahzenegar.com/iframe/pONDb"
-												allowFullScreen></iframe>
+									<iframe
+										frameBorder="0"
+										src="//lahzenegar.com/iframe/pONDb"
+										allowFullScreen
+									></iframe>
 								</div>
 							</section>
 						</div>
