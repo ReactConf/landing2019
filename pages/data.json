@@ -282,17 +282,6 @@
 	],
 	"juries": [
 		{
-			"avatar": "/static/images/people/rasoul.jpg",
-			"slug": "Rasoul Abdollahi",
-			"socials": [{
-				"url": "https://www.linkedin.com/in/rasoul-abdollahi-25b73bb2/",
-				"icon": "linkedin"
-			}, {
-				"url": "https://twitter.com/ira3oul",
-				"icon": "twitter"
-			}]
-		},
-		{
 			"avatar": "/static/images/people/reza.jpg",
 			"slug": "Reza Shadman",
 			"socials": [{
