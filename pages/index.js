@@ -440,8 +440,7 @@ export default class Main extends Component {
 											subject={`Why are we using React.js in our project?`}
 											summary={`Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript.`}
 											time={["09:20", "09:50"]}
-											presentation_pdf="https://google.com"
-											presentation_video="https://google.com"
+
 										/>
 										<Schedule
 											id={6}
@@ -450,8 +449,8 @@ export default class Main extends Component {
 											subject={`React 16 Overview`}
 											summary={`An overview on how React works and what features are added to it in version 16.x`}
 											time={["09:50", "10:20"]}
-											presentation_pdf="https://google.com"
-											presentation_video="https://google.com"
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/blob/master/2019/React-16-Overview.key"
+											presentation_video="https://youtu.be/P84C_Tj3Py0"
 										/>
 										<Schedule
 											id={9}
@@ -460,6 +459,7 @@ export default class Main extends Component {
 											subject={`Micro-Frontend`}
 											summary={`What do you do if you need an enterprise Front-end application? How to develop each part of the application completely in an independent team with their structure, libraries, and framework as a separate application? And how these applications will communicate with each other? These questions will be answered by Micro-Frontend concept.`}
 											time={["10:20", "10:50"]}
+											presentation_video="https://www.youtube.com/watch?v=-X-BHKzPXh0&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=5&t=0s"
 										/>
 										<Schedule
 											id={2}
@@ -475,6 +475,8 @@ export default class Main extends Component {
 											subject={`Everything You Need To Know About SVG`}
 											summary={`why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it.`}
 											time={["11:10", "11:40"]}
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/tree/master/2019/everything-about-svg"
+											presentation_video="https://www.youtube.com/watch?v=lygfGsRkQZk&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=7&t=0s"
 										/>
 										<Schedule
 											id={8}
@@ -490,6 +492,8 @@ export default class Main extends Component {
 											subject={`How to deal with CORS error in Webpack?`}
 											summary={`Does CORS error haunts you in every project? Are you tired of asking backend team to handle it? This talk is going to give you all the power to handle this error in development.`}
 											time={["11:50", "12:20"]}
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/blob/master/2019/cors-handling-in-webpack.pptx"
+											presentation_video="https://www.youtube.com/watch?v=JkDKQYiEdzM&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=11&t=0s"
 										/>
 										<Schedule
 											id={11}
@@ -498,6 +502,8 @@ export default class Main extends Component {
 											subject={`Styled-Component Architecture`}
 											summary={`how to make Dynamic interactive user interface based on components and how to use it for building complex interfaces.`}
 											time={["12:20", "12:50"]}
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/blob/master/2019/styled-components.pptx"
+											presentation_video="https://www.youtube.com/watch?v=T0AMuGKB0AU&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=10&t=0s"
 										/>
 										<Schedule
 											id={12}
@@ -513,6 +519,7 @@ export default class Main extends Component {
 											subject={`How Not to Be Innovative`}
 											summary={`The talk will be about where Innovation in technology comes from, based on my own research and experience, and how your choice of technologies in a project can stop innovation`}
 											time={["14:00", "14:30"]}
+											presentation_video="https://www.youtube.com/watch?v=sYV7t3TMOuw&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=3&t=0s"
 										/>
 
 										<Schedule
@@ -522,6 +529,8 @@ export default class Main extends Component {
 											subject={`State management with React Context API`}
 											summary={`Tahere has been developing Frontend applications for 6+ years including more than two years on React/Redux.React Context API is a powerful feature, you might consider using it when your React Application grows in size and depth from a component perspective.`}
 											time={["14:30", "15:00"]}
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/blob/master/2019/state-management-with-context-api.pptx"
+											presentation_video="https://www.youtube.com/watch?v=oJzNyvuf2QY&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=8&t=0s"
 										/>
 										<Schedule
 											id={8}
@@ -551,6 +560,8 @@ export default class Main extends Component {
 											subject={`PWA in React!`}
 											summary={`FrontEnd Developer at Snapp.ir,he have more than six years of hands-on experience efficiently developing websites and Web-Applications using Modern Javascript frameworks like React and VueJs. he had the opportunity to be a part of many cool and innovative teams and companies. For now, we just want to talk about how we can develop a great PWA. starts with a simple introduction to PWA and how it is and what issues you might have on this journey and etc.`}
 											time={["16:45", "17:15"]}
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/tree/master/2019/pwa-in-react"
+											presentation_video="https://www.youtube.com/watch?v=MfO8-4e-8l0&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=9&t=0s"
 										/>
 										<Schedule
 											id={20}
@@ -559,6 +570,8 @@ export default class Main extends Component {
 											subject={`React Native Architecture`}
 											summary={`How React Native works, What issues it has and how they will be addressed in the React Native new architecture.`}
 											time={["17:15", "17:45"]}
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/blob/master/2019/react-native-new-architecture.pdf"
+											presentation_video="https://www.youtube.com/watch?v=aDaLqjGn9G4&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=13&t=0s"
 										/>
 										<Schedule
 											id={21}
@@ -567,6 +580,8 @@ export default class Main extends Component {
 											subject={`How Diffing Algorithm Works In React`}
 											summary={`Manipulating the DOM‌ is an intensive operation in the browser world, react uses VDOM concept to do that with its own diffing algorithm to improve performance which we aim to go through it to understand what is under the hood.`}
 											time={["17:45", "18:15"]}
+											presentation_pdf="https://github.com/ReactConf/react-conf-highlights/tree/master/2019/diffing-algorithm-in-react"
+											presentation_video="https://www.youtube.com/watch?v=IjFhL0hPZ0M&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=12&t=0s"
 										/>
 										<Schedule
 											id={22}
@@ -575,6 +590,7 @@ export default class Main extends Component {
 											subject={`What is GraphQL and how to implement a scalable GraphQL project with React & Apollo?`}
 											summary={`Javascript applications with React, powered by lovely GraphQL, Apollo and Prisma.`}
 											time={["18:15", "18:45"]}
+											presentation_video="https://www.youtube.com/watch?v=KVGNQjKBSE4&list=PL-VNqZFI5Nf-Nsj0rD3CWXGPkH-DI_0VY&index=4&t=0s"
 										/>
 										<Schedule
 											id={23}
