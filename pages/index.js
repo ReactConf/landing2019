@@ -440,6 +440,8 @@ export default class Main extends Component {
 											subject={`Why are we using React.js in our project?`}
 											summary={`Advanced Efficiency, Reusability of React Components,Performance,Modularity and the market job, ... and everything is Javascript.`}
 											time={["09:20", "09:50"]}
+											presentation_pdf="https://google.com"
+											presentation_video="https://google.com"
 										/>
 										<Schedule
 											id={6}
@@ -448,6 +450,8 @@ export default class Main extends Component {
 											subject={`React 16 Overview`}
 											summary={`An overview on how React works and what features are added to it in version 16.x`}
 											time={["09:50", "10:20"]}
+											presentation_pdf="https://google.com"
+											presentation_video="https://google.com"
 										/>
 										<Schedule
 											id={9}
