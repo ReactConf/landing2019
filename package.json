@@ -13,7 +13,7 @@
 		"install": "^0.13.0",
 		"next": "^8.1.0",
 		"next-routes": "^1.4.2",
-		"node-sass": "^4.12.0",
+		"node-sass": "^7.0.0",
 		"normalize.css": "^8.0.1",
 		"npm": "^6.10.3",
 		"rc-texty": "^0.2.0",
